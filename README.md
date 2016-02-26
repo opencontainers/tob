@@ -9,8 +9,8 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 * Dr. Diogo Monica
 * Jason Bouzane
 * Greg Kroah-Hartman
-*	John Gossman
-*	Pavel Emelyanov
+* John Gossman
+* Pavel Emelyanov
 * Chris Wright
 * Vincent Batts
 
