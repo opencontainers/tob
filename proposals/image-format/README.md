@@ -51,7 +51,6 @@ A: Existing formats can continue to be a proving ground for technologies, as nee
     * Build system creators
     * Image registry creators
     * Container engine creators
-    * Test cases for each of the potential users exercising build, push, and pull verbs
 * May 16th v0.2.0
   * Release version of spec with improvements from two independent experimental implementations from OCI members e.g. Amazon Container Registry and rkt
 * June 13th v1.0.0
