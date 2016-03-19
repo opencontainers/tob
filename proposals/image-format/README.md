@@ -1,4 +1,4 @@
-CI Image Format Spec Proposal
+# OCI Image Format Spec Proposal
 
 The TOB will create a new OCI project tasked with creating a software shipping container image format spec (OCI Image Format) with security and naming as components. In addition the OCI TOB will establish a new set of maintainers for this new project with people who have expertise in image formats and package management.
 
