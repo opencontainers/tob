@@ -18,6 +18,10 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 https://groups.google.com/a/opencontainers.org/forum/#!forum/tob (tob@opencontainers.org)
 
+## Project Proposals
+
+* [Image Format Spec](https://github.com/opencontainers/tob/tree/master/proposals/image-format)
+
 ## Voting
 
 In various situations ([2.c 6.h, 6.j, 6.n](https://www.opencontainers.org/governance)) the TOB shall hold a vote. These votes can happen on the phone, email, or via a voting service, when appropriate.
