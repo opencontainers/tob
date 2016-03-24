@@ -4,7 +4,7 @@ The TOB will create a new OCI project tasked with creating a software shipping c
 
 ## Initial Recommendation
 
-This new OCI project would be recommended to start with the Docker v2.2 specification, improve any remaining technical concerns, and create an OCI project and maintainers to develop and shepard an OCI Image Fromat Spec. By starting from this project we intend to standardize and improve the understood properties of a container image format. This new project will have the objectives of:
+This new OCI project would be recommended to start with the Docker v2.2 specification, improve any remaining technical concerns, and create an OCI project and maintainers to develop and shepherd an OCI Image Fromat Spec. By starting from this project we intend to standardize and improve the understood properties of a container image format. This new project will have the objectives of:
 
 * A serialized image format (base layer)
 * A process of hashing the image format for integrity and content-addressing (base layer)
@@ -15,7 +15,7 @@ Initial Maintainers: to be brainstormed on a separate thread.
 
 ## Cooperation with OCI Runtime Project
 
-The OCI Runtime Specs project is working diligently to create a specification for the lifecycle of a running container. The OCI Image Format Spec project should work with the OCI Runtime Spec project so that the image can support the UX that users have come to expect from container engines like Docker and rkt. Primarliy the ability to run an image with no additional arguments:
+The OCI Runtime Specs project is working diligently to create a specification for the lifecycle of a running container. The OCI Image Format Spec project should work with the OCI Runtime Spec project so that the image can support the UX that users have come to expect from container engines like Docker and rkt: primarily, the ability to run an image with no additional arguments:
 
 * docker run example.com/org/app:v1.0.0
 * rkt run example.com/org/app,version=v1.0.0
