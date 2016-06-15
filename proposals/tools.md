@@ -29,7 +29,7 @@ Initial maintainers of the image-tools project shall be:
 * Maintainers of the image-spec project
 
 ### Code of Conduct
-Both of the proposed projects would incorporate (by referencer) the OCI Code of Conduct from the 
+Both of the proposed projects would incorporate (by reference) the OCI Code of Conduct from the 
 
 ### Project Communications
 Both of the proposed projects would continue to use existing channels in use by the OCI developer community for communication including:
