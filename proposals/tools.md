@@ -42,3 +42,10 @@ Both of the proposed projects would continue to use existing channels in use by 
 Released version numbers of the runtime-tools and image-tools projects should roughly align with released verions of the associated specs projects.
 
 It is expected that releases of the tools projects will follow releases of the specs projects by anywhere from a few days to a few months.
+
+## Frequenty Asked Questions (FAQ)
+Q: What about the runc project?
+A: This proposal would not impact runc.  Runc containers as a reference implementation of the runtime-spec
+
+Q: What about schemas?
+A: It would be up to the OCI developer community to determine if schemas fit best with the specs or tools projects
