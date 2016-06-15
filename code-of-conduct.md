@@ -1,34 +1,56 @@
-# OpenContainers Code of Conduct
+# OCI Code of Conduct v1.0
 
-Behave as a community member, follow the code of conduct.
+## Our Pledge
 
-## Code of Conduct
+In the interest of fostering an open and welcoming environment, we as
+contributors and maintainers pledge to making participation in our project and
+our community a harassment-free experience for everyone, regardless of age, body
+size, disability, ethnicity, gender identity and expression, level of experience,
+nationality, personal appearance, race, religion, or sexual identity and
+orientation.
 
-The OpenContainers community is made up of a mixture of professionals and volunteers from all over the world.
+## Our Standards
 
-When we disagree, we try to understand why.
-Disagreements, both social and technical, happen all the time and OpenContainers is no exception.
-It is important that we resolve disagreements and differing views constructively.
+Examples of behavior that contributes to creating a positive environment
+include:
 
-This code of conduct applies both within project spaces and in public spaces when an individual is representing the project or its community.
-Participants should be aware of these concerns.
-
-We are committed to making participation in this project a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, or nationality.
+* Using welcoming and inclusive language
+* Being respectful of differing viewpoints and experiences
+* Gracefully accepting constructive criticism
+* Focusing on what is best for the community
+* Showing empathy towards other community members
 
 Examples of unacceptable behavior by participants include:
 
-* The use of sexualized language or imagery
-* Personal attacks
-* Trolling or insulting/derogatory comments
+* The use of sexualized language or imagery and unwelcome sexual attention or
+advances
+* Trolling, insulting/derogatory comments, and personal or political attacks
 * Public or private harassment
-* Publishing other's private information, such as physical or electronic addresses, without explicit permission
-* Other unethical or unprofessional conduct
+* Publishing others' private information, such as a physical or electronic
+  address, without explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
 
-The OpenContainers team does not condone any statements by speakers contrary to these standards.
-The OpenContainers team reserves the right to deny participation any individual found to be engaging in discriminatory or harassing actions.
+## Our Responsibilities
 
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct.
-By adopting this Code of Conduct, project maintainers commit themselves to fairly and consistently applying these principles to every aspect of managing this project.
+Project maintainers are responsible for clarifying the standards of acceptable
+behavior and are expected to take appropriate and fair corrective action in
+response to any instances of unacceptable behavior.
+
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned to this Code of Conduct, or to ban temporarily or
+permanently any contributor for other behaviors that they deem inappropriate,
+threatening, offensive, or harmful.
+
+## Scope
+
+This Code of Conduct applies both within project spaces and in public spaces
+when an individual is representing the project or its community. Examples of
+representing a project or community include using an official project e-mail
+address, posting via an official social media account, or acting as an appointed
+representative at an online or offline event. Representation of a project may be
+further defined and clarified by project maintainers.
 
 ## Enforcement
 
@@ -36,8 +58,7 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 
 Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
-## Thanks 
+## Thanks
 
-Thanks to the [Fedora Code of Conduct](https://getfedora.org/code-of-conduct) and [Contributor Covenant](http://contributor-covenant.org) for inspiration and ideas.
-
-Portions of this Code of Conduct are adapted from the Contributor Covenant, version 1.2.0, available at http://contributor-covenant.org/version/1/2/0/
+This code of conduct is adapted from the [Contributor Covenant](http://contributor-covenant.org/), version 1.4,
+available at http://contributor-covenant.org/version/1/4.
