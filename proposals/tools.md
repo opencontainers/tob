@@ -9,27 +9,47 @@ Testing tools have been organically developed by the OCI developer community.
 These include:
 * Runtime-spec test code in a OCITools repository
 * Image-spec test code in the image-spec repository
-On Wednesday, June 8th, 2016, the OCI developer community discussed potential location(s) for tools associated with specs.  
 
-Pro and con arguments were raised for both:
-* A. Having test tools in separate repositories for specs (while possibly keeping schemas with the specs)
-* B. Keeping test tools in the same repository as a spec (with independent versioning of files)
+On Monday, August 22nd, 2016, the OCI Certification Program WG designated Chris Aniszczyk and Rob Dolin to draft a proposal for formalizing approval of tools.
 
-The below proposal describes option A.
+On Wednesday, August 24th, 2016, the OCI Developer Community (TDC) met and recommended establishing a tools repository corresponding to each of the spec repositories.  
 
 ## Proposal
-Create runtime-tools and image-tools repositories under the http://github.com/OpenContainers organization.
+With repositories under the http://github.com/OpenContainers organization:
+* Rename the OCITools repository as runtime-tools
+* Create a new repository named image-tools and populate this with the files from: https://github.com/opencontainers/image-spec/tree/master/cmd/oci-image-tool
+
+### Project Descriptions
+Below are brief draft project descriptions intended to serve as an initial abstract for each project:
+* Runtime-Tools: Tools for testing of container runtimes implementing the OCI runtime-spec.  
+This includes code that tests a runtime's conformance to the OCI Container Runtime spec
+* Image-Tools: Tools for testing of container images implementing the OCI image-spec.  
+This includes code that validates a file's conformance to the OCI Container Image Format spec.  
 
 ### Initial Maintainers
-Initial maintainers of the runtime-tools project shall be:
+Initial maintainers of the runtime-tools project:
 * Maintainers of the runtime-spec project
-* The four most active contributors (by commit count) to the OCITools project 
+* Three additional most active contributors (by commit count as of Wed, 8/24/2016) to the repo that will become runtime-tools:
+  - Ma Shimiao (https://github.com/Mashimiao)
+  - W. Trevor King (https://github.com/wking)
+  - Liang Chenye (https://github.com/liangchenye)
+
+(Murnal Patel is one of the most active contributors and he will be included with the first bullet point.)
 
 Initial maintainers of the image-tools project shall be:
 * Maintainers of the image-spec project
+* Three additional most active contributotors (by commit count as of Wed, 8/24/2016) to the files that will become image-tools:
+  - Sergiusz Urbaniak (https://github.com/s-urbaniak)
+  - Antonio Murdaca (https://github.com/runcom)
+  - xiekeyang (https://github.com/xiekeyang)
+
+(Vincent Batts and Jonathan Boulle are two of the most active contributors and they will be included with the first bullet point.)
 
 ### Code of Conduct
-Both of the proposed projects would incorporate (by reference) the OCI Code of Conduct from the 
+Both of the proposed projects would incorporate (by reference) the OCI Code of Conduct
+
+### Governance and Releases
+Both of the proposed projects would incorporate the Governance and Releases processes from the OCI project template: https://github.com/opencontainers/project-template
 
 ### Project Communications
 Both of the proposed projects would continue to use existing channels in use by the OCI developer community for communication including:
@@ -49,3 +69,9 @@ A: This proposal would not impact runc.  Runc containers as a reference implemen
 
 Q: What about schemas?
 A: It would be up to the OCI developer community to determine if schemas fit best with the specs or tools projects
+
+Q: Why are the repo names plural (tools) instead of singular (tool)?
+A: There may be multiple tools or a single tool with multiple functionalities.
+
+Q: Why not prefix the repo names with "oci-" aligning to the CLI commands for invoking the tools?
+A: The repos will be under the http://www.github.com/OpenContainers/ organization.
