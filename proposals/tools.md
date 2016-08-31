@@ -87,4 +87,4 @@ Q: Can additional code/tools be added to the proposed tools repos beyond what is
 A: Yes.  If there is other code or functionality that a contributor believes would be relevant for runtime-related or image-related tools, it would be great if it is contributed.
 
 Q: Does this change the OCI Charter or Scope Table?
-A: No.  Nothing in this proposal is intended to amend the OCI Charter or OCI Scope Table.
+A: No.  Nothing in this proposal is intended to amend the OCI Charter (https://www.opencontainers.org/about/governance) or OCI Scope Table (https://www.opencontainers.org/governance/oci-scope-table).
