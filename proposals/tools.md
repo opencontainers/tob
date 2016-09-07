@@ -29,21 +29,9 @@ This includes code that validates a file's conformance to the OCI Container Imag
 ### Initial Maintainers
 Initial maintainers of the runtime-tools project:
 * Maintainers of the runtime-spec project
-* Three additional most active contributors (by commit count as of Wed, 8/24/2016) to the repo that will become runtime-tools:
-  - Ma Shimiao (https://github.com/Mashimiao)
-  - W. Trevor King (https://github.com/wking)
-  - Liang Chenye (https://github.com/liangchenye)
-
-(Murnal Patel is one of the most active contributors and he will be included with the first bullet point.)
 
 Initial maintainers of the image-tools project shall be:
 * Maintainers of the image-spec project
-* Three additional most active contributors (by commit count as of Wed, 8/24/2016) to the files that will become image-tools:
-  - Sergiusz Urbaniak (https://github.com/s-urbaniak)
-  - Antonio Murdaca (https://github.com/runcom)
-  - xiekeyang (https://github.com/xiekeyang)
-
-(Vincent Batts and Jonathan Boulle are two of the most active contributors and they will be included with the first bullet point.)
 
 ### Code of Conduct
 Both of the proposed projects would incorporate (by reference) the OCI Code of Conduct
