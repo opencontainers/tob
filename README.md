@@ -4,15 +4,15 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 ## Members
 
-* Brandon Philips (TOB Chair)
-* Michael Crosby
-* Dr. Diogo Monica
-* Jason Bouzane
-* Greg Kroah-Hartman
-* John Gossman
-* Pavel Emelyanov
-* Chris Wright
-* Vincent Batts
+* **(TOB Chair) Brandon Philips** (start date: 1/29/2016 - term: 2 years)
+* **Michael Crosby** (start date: 1/29/2016 - term: 1 year)
+* **Dr. Diogo Monica** (start date: 1/29/2016 - term: 2 years)
+* **Jason Bouzane** (start date: 1/29/2016 - term: 2 years)
+* **Greg Kroah-Hartman** (start date: 1/29/2016 - term: 1 year)
+* **John Gossman** (start date: 1/29/2016 - term: 2 years)
+* **Pavel Emelyanov** (start date: 1/29/2016 - term: 1 year)
+* **Chris Wright** (start date: 1/29/2016 - term: 2 years)
+* **Vincent Batts** (start date: 1/29/2016 - term: 1 year)
 
 ## Mailing List
 
