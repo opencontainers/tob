@@ -1,7 +1,7 @@
 # OCI go-digest project proposal
 
 ## Abstract
-[image-spec-486]: https://github.com/opencontainerrs/image-spec/pull/486 introduces a dependency on a stable upstream implementation of https://github.com/docker/go-digest, which was recently broken out of the https://github.com/docker/distribution project.
+[image-spec#486][image-spec-486] introduces a dependency on a stable upstream implementation of https://github.com/docker/go-digest, which was recently broken out of the https://github.com/docker/distribution project.
 
 This package has been instrumental in providing a strong hash-identity implementation in Go and we will extend this to OCI. This will be supported by moving https://github.com/opencontainers/go-digest to OCI. While this package does support opencontainers/image-spec, it is broadly useful in other image formats or outside image formats.
 
@@ -43,3 +43,5 @@ It will provide digesting functionality for all present and future versions of t
 ## Frequenty Asked Questions (FAQ)
 Q: Does this change the OCI Charter or Scope Table?
 A: No.  Nothing in this proposal is intended to amend the OCI Charter (https://www.opencontainers.org/about/governance) or OCI Scope Table (https://www.opencontainers.org/about/oci-scope-table).
+
+[image-spec-486]: https://github.com/opencontainers/image-spec/pull/486
