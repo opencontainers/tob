@@ -1,11 +1,9 @@
 # OCI go-digest project proposal
 
 ## Abstract
-opencontainers/image-spec#486 introduces a dependency on a stable upstream implementation of https://github.com/docker/go-digest, which was recently broken out of the https://github.com/docker/distribution project.
+[image-spec-486]: https://github.com/opencontainerrs/image-spec/pull/486 introduces a dependency on a stable upstream implementation of https://github.com/docker/go-digest, which was recently broken out of the https://github.com/docker/distribution project.
 
-This package has been instrumental in providing a strong hash-identity implementation in Go and I hope to extend this to OCI.
-
-Let's support this by moving this into a https://github.com/opencontainers/go-digest project specifically oriented towards providing this functionality throughout the container ecosystem. While this package does support opencontainers/image-spec, it is broadly useful in other image formats or outside image formats.
+This package has been instrumental in providing a strong hash-identity implementation in Go and we will extend this to OCI. This will be supported by moving https://github.com/opencontainers/go-digest to OCI. While this package does support opencontainers/image-spec, it is broadly useful in other image formats or outside image formats.
 
 Having a solid, battle-proven, common digest implementation in OCI for use in and outside the image-spec will ensure long lasting security and interoperability throughout the container ecosystem.
 
@@ -21,7 +19,7 @@ Initial maintainers of the go-digest project would be seeded from the image-spec
 * Jason Bouzane <jbouzane@google.com> (@jbouzane)
 * John Starks <jostarks@microsoft.com> (@jstarks)
 * Jonathan Boulle <jon.boulle@coreos.com> (@jonboulle)
-* Stephen Day <stephen.day@docker.com> (@stevvooe) [lead maintainer]
+* Stephen Day <stephen.day@docker.com> (@stevvooe)
 * Vincent Batts <vbatts@redhat.com> (@vbatts)
 
 ### Code of Conduct
@@ -38,8 +36,10 @@ Both of the proposed projects would continue to use existing channels in use by 
 * The #OpenContainers IRC channel
 
 ### Versioning / Roadmap
-Released version numbers of the go-digest project should roughly align with released versions of the associated specs projects.
+We will probably minimize the releases of this project.
+
+It will provide digesting functionality for all present and future versions of the specification.
 
 ## Frequenty Asked Questions (FAQ)
 Q: Does this change the OCI Charter or Scope Table?
-A: No.  Nothing in this proposal is intended to amend the OCI Charter (https://www.opencontainers.org/about/governance) or OCI Scope Table (https://www.opencontainers.org/governance/oci-scope-table).
+A: No.  Nothing in this proposal is intended to amend the OCI Charter (https://www.opencontainers.org/about/governance) or OCI Scope Table (https://www.opencontainers.org/about/oci-scope-table).
