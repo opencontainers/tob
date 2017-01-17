@@ -4,15 +4,15 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 ## Members
 
-* **(TOB Chair) Brandon Philips** (start date: 1/29/2016 - term: 2 years)
-* **Michael Crosby** (start date: 1/29/2016 - term: 1 year)
-* **Dr. Diogo Monica** (start date: 1/29/2016 - term: 2 years)
-* **Jason Bouzane** (start date: 1/29/2016 - term: 2 years)
-* **Greg Kroah-Hartman** (start date: 1/29/2016 - term: 1 year)
-* **John Gossman** (start date: 1/29/2016 - term: 2 years)
-* **Pavel Emelyanov** (start date: 1/29/2016 - term: 1 year)
-* **Chris Wright** (start date: 1/29/2016 - term: 2 years)
-* **Vincent Batts** (start date: 1/29/2016 - term: 1 year)
+* **(TOB Chair) Brandon Philips [CoreOS]** (start date: 1/29/2016 - term: 2 years)
+* **Michael Crosby [Docker]** (start date: 1/29/2016 - term: 1 year)
+* **Dr. Diogo Monica [Docker]** (start date: 1/29/2016 - term: 2 years)
+* **Jason Bouzane [Google]** (start date: 1/29/2016 - term: 2 years)
+* **Greg Kroah-Hartman [Linux Foundation]** (start date: 1/29/2016 - term: 1 year)
+* **John Gossman [Microsoft]** (start date: 1/29/2016 - term: 2 years)
+* **Pavel Emelyanov [Virtuozzo]** (start date: 1/29/2016 - term: 1 year)
+* **Chris Wright [Red Hat]** (start date: 1/29/2016 - term: 2 years)
+* **Vincent Batt [Red Hat]** (start date: 1/29/2016 - term: 1 year)
 
 ## Mailing List
 
