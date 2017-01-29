@@ -12,7 +12,7 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 * **Greg Kroah-Hartman [Linux Foundation]** (start date: 1/29/2017 - term: 2 year)
 * **John Gossman [Microsoft]** (start date: 1/29/2016 - term: 2 years)
 * **Chris Wright [Red Hat]** (start date: 1/29/2016 - term: 2 years)
-* **Vincent Batt [Red Hat]** (start date: 1/29/2017 - term: 2 year)
+* **Vincent Batts [Red Hat]** (start date: 1/29/2017 - term: 2 year)
 
 ## Mailing List
 
