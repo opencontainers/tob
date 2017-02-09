@@ -41,7 +41,9 @@ We will probably minimize the releases of this project.
 It will provide digesting functionality for all present and future versions of the specification.
 
 ## Frequenty Asked Questions (FAQ)
-Q: Does this change the OCI Charter or Scope Table?
+
+**Q: Does this change the OCI Charter or Scope Table?**
+
 A: No.  Nothing in this proposal is intended to amend the OCI Charter (https://www.opencontainers.org/about/governance) or OCI Scope Table (https://www.opencontainers.org/about/oci-scope-table).
 
 [image-spec-486]: https://github.com/opencontainers/image-spec/pull/486

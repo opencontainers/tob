@@ -52,27 +52,35 @@ Released version numbers of the runtime-tools and image-tools projects should ro
 It is expected that releases of the tools projects will follow releases of the specs projects by anywhere from a few days to a few months.
 
 ## Frequenty Asked Questions (FAQ)
-Q: What about the runc project?
-A: This proposal would not impact runc.  
+
+**Q: What about the runc project?**
+
+A: This proposal would not impact runc.
 Runc is a reference implementation of the runtime-spec and it lives in its own repo.
 
-Q: What about schemas?
+**Q: What about schemas?**
 A: It would be up to the OCI developer community to determine if schemas fit best with the specs or tools projects.
 
-Q: Why are the repo names plural (tools) instead of singular (tool)?
+**Q: Why are the repo names plural (tools) instead of singular (tool)?**
+
 A: There may be multiple tools or a single tool with multiple functionalities.
 
-Q: Why not prefix the repo names with "oci-" aligning to the CLI commands for invoking the tools?
+**Q: Why not prefix the repo names with "oci-" aligning to the CLI commands for invoking the tools?**
+
 A: The repos will be under the http://www.github.com/OpenContainers/ organization.
 
-Q: Why two tools repos?
+**Q: Why two tools repos?**
+
 A: Having a tools repo for each spec repo allows for releasing a tools repo shortly after a spec stabilizes even if the other tools repo is in a state of flux.
 
-Q: Why is contribution count used to identify potential maintainers?
-A: Contribution count is not a great metric for the value of a contributor's contributions, but this seemed like a reasonable, rough way to identify additional potential maintainers beyond the spec maintainers.  
+**Q: Why is contribution count used to identify potential maintainers?**
 
-Q: Can additional code/tools be added to the proposed tools repos beyond what is listed above?
+A: Contribution count is not a great metric for the value of a contributor's contributions, but this seemed like a reasonable, rough way to identify additional potential maintainers beyond the spec maintainers.
+
+**Q: Can additional code/tools be added to the proposed tools repos beyond what is listed above?**
+
 A: Yes.  If there is other code or functionality that a contributor believes would be relevant for runtime-related or image-related tools, it would be great if it is contributed.
 
-Q: Does this change the OCI Charter or Scope Table?
+**Q: Does this change the OCI Charter or Scope Table?**
+
 A: No.  Nothing in this proposal is intended to amend the OCI Charter (https://www.opencontainers.org/about/governance) or OCI Scope Table (https://www.opencontainers.org/about/oci-scope-table).
