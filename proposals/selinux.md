@@ -22,6 +22,7 @@ Initial maintainers of the go-selinux project would be:
 * Antonio Murdaca <runcom@redhat.com> (@runcom)
 * Daniel J Walsh <dwalsh@redhat.com> (@rhatdan)
 * Mrunal Patel <mpatel@redhat.com> (@mrunalp)
+* Stephen Smalley <sds@tycho.nsa.gov> (@stephensmalley)
 
 ### Code of Conduct
 This project would incorporate (by reference) the OCI Code of Conduct.
