@@ -22,6 +22,7 @@ https://groups.google.com/a/opencontainers.org/forum/#!forum/tob (tob@opencontai
 
 * [Digest](https://github.com/opencontainers/tob/blob/master/proposals/digest.md)
 * [Image Format Spec](https://github.com/opencontainers/tob/tree/master/proposals/image-format)
+* [SELinux](https://github.com/opencontainers/tob/blob/master/proposals/selinux.md)
 * [Tools](https://github.com/opencontainers/tob/blob/master/proposals/tools.md)
 
 ## Voting
