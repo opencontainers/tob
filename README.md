@@ -23,6 +23,7 @@ https://groups.google.com/a/opencontainers.org/forum/#!forum/tob (tob@opencontai
 * [Digest](proposals/digest.md)
 * [Distribution Spec](proposals/distribution.md)
 * [Image Format Spec](proposals/image-format)
+* [libocispec](proposals/libocispec.md)
 * [SELinux](proposals/selinux.md)
 * [Tools](proposals/tools.md)
 
