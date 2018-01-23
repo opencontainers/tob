@@ -1,6 +1,6 @@
 # Abstract
 
-The Docker registry protocol has become the defacto standard across the container registry world ([https://github.com/docker/distribution/blob/master/docs/spec/index.md](https://github.com/docker/distribution/blob/master/docs/spec/index.md)).
+The Docker registry protocol has become the defacto standard across the container registry world ([https://github.com/docker/distribution/blob/master/docs/spec/api.md](https://github.com/docker/distribution/blob/master/docs/spec/api.md)).
 
 In the OCI, having a solid, common distribution specification with conformance testing will ensure long lasting security and interoperability throughout the container ecosystem.
 
@@ -10,7 +10,7 @@ TL;DR; Move [https://github.com/docker/distribution/tree/master/docs/spec](https
 
 This proposal covers the distribution API spec, and while it does not cover the code for the docker-registry, that implementation is considered the reference implementation. There are other implementations of this protocol, not all are open-source though (Google gcr.io, Amazon ECR, CoreOS Quay, Gitlab registry, JFrog Artifactory registry, Huawei Dockyard, etc).
 
-In the past when the topic of having an OCI specification around the distribution of container images, it was deferred as "let’s get the image format defined, mean while the industry will settle on a distribution standard". Fast forward, OCI image format is out and adopted, and the Registry v2 is the defacto standard. There is and will be use-cases for alternate methods and the future will likely hold creative ways to push, fetch and share container images, but right now this promotion serves to acknowledge by the OCI the current industry standard of distributing container images.
+In the past when the topic of having an OCI specification around the distribution of container images was discussed, it was deferred as "let’s get the image format defined, meanwhile the industry will settle on a distribution standard". Fast forward, OCI image format is out and adopted, and the Registry v2 is the defacto standard. There is and will be use-cases for alternate methods and the future will likely hold creative ways to push, fetch and share container images, but right now this promotion serves to acknowledge by the OCI the current industry standard of distributing container images.
 
 There is polish that is needed e.g. broken links to storage-driver docs, as well as making sections more generic regarding the OCI descriptors and media-types, but on the whole this is a lateral move.
 
@@ -31,7 +31,7 @@ Additional Maintainers to consider:
 * Mike Brown (IBM)
 * Jimmy Zelinskie jimmy@coreos.com (@jzelinskie)
 * Liu Genping <[liugenping@huawei.com](mailto:liugenping@huawei.com)>
-* Vanessa Sochat (@vsoch)
+* Vanessa Sochat (@vsoch) (Stanford) <vsochat@stanford.edu>
 
 ## Code of Conduct
 
@@ -59,3 +59,7 @@ The API spec is currently considered v2 and we will start the specification at v
 * Does this include the code of the docker-registry?
     * No. This is an API specification discussion.
 
+## Related GitHub Issues
+
+* Simplifies tag listing: docker/distribution#2169
+* Allows listing of manifests: docker/distribution#2199
