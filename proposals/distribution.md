@@ -59,8 +59,3 @@ The API spec is currently considered v2 and we will start the specification at v
 
 * Does this include the code of the docker-registry?
     * No. This is an API specification discussion.
-
-## Related GitHub Issues
-
-* Simplifies tag listing: docker/distribution#2169
-* Allows listing of manifests: docker/distribution#2199
