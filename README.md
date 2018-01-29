@@ -4,16 +4,15 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 ## Members
 
-* **(TOB Chair) Brandon Philips [CoreOS]** (term date: 1/29/2016 - 1/29/2018)
+* **(TOB Chair) Brandon Philips [CoreOS]** (term date: 1/29/2018 - 1/29/2020)
+* **Vincent Batts [Red Hat]** (term date: 1/29/2017 - 1/29/2019)
 * **Michael Crosby [Docker]** (term date: 1/29/2017 - 1/29/2019)
-* **Dr. Diogo Monica [Docker]** (term date: 1/29/2016 - 1/29/2018)
-* **Jason Bouzane [Google]** (term date: 1/29/2016 - 1/29/2018)
+* **Stephen Day [Docker]** (term date: 1/29/2018 - 1/29/2020)
+* **Phil Estes [IBM]** (term date: 1/29/2018 - 1/29/2020)
+* **Jon Johnson [Google]** (term date: 1/29/2018 - 1/29/2020)
 * **Vishnu Kannan [Google]** (term date: 1/29/2017 - 1/29/2019)
 * **Greg Kroah-Hartman [Linux Foundation]** (term date: 1/29/2017 - 1/29/2019)
-* **John Gossman [Microsoft]** (term date: 1/29/2016 - 1/29/2018)
-* **Chris Wright [Red Hat]** (term date: 1/29/2016 - 1/29/2018)
-* **Vincent Batts [Red Hat]** (term date: 1/29/2017 - 1/29/2019)
-
+* **Mrunal Patel [Red Hat]** (term date: 1/29/2018 - 1/29/2020)
 ## Mailing List
 
 https://groups.google.com/a/opencontainers.org/forum/#!forum/tob (tob@opencontainers.org)
