@@ -85,9 +85,8 @@ The following entries should be added to the [scope table][scope]:
     * In/Out/Future: Out of scope
     * Status: N/A
     * Description: Defining protocols for authenticating and authorizing distribution access.
-    * Why: As a HTTP-based protocol, clients and servers can negotiate authentication via HTTP's [challenge-response authentication framework][rfc7235-s2.1].
+    * Why: As an HTTP-based protocol, clients and servers can negotiate authentication via HTTP's [challenge-response authentication framework][rfc7235-s2.1].
         There is no need for the distribution specification to choose a particular authentication scheme, because clients receiving 401 and 407 responses can use IANA's [HTTP Authentication Scheme Registry][iana-auth] to look up referenced schemes and take appropriate action.
-        It is reasonable to provide a standardized way to use DNS based distribution in conjunction with OCI without requiring its use.
 
 * “Creating a reference spec for optional DNS based naming and discovery”.
     Discovery and registry protocols are completely separate and do not need to be added together.
@@ -95,9 +94,9 @@ The following entries should be added to the [scope table][scope]:
 
     * What: Creating a reference spec for optional DNS based naming and discovery
     * In/Out/Future: In scope for future specification
-    * Status: Not currently being worked
+    * Status: Work not yet started
     * Description: Define a protocol for resolving an image name to retrieval information.
-        When we address this, we will also allow for alternative, parallel name-to-image discovery protocols in parallel with the OCI-specified protocol.
+        When we address this, we will also allow for alternative name-to-image discovery protocols in parallel with the OCI-specified protocol.
     * Why: It is reasonable to provide a standardized way to use DNS based distribution in conjunction with OCI without requiring its use.
         There are many good use cases for DNS based distribution, but not all use cases support this.
         Furthermore, encoding the location of a bundle into the bundle can cause issues with downloads from alternate locations other than the origin specified in the name.
@@ -123,13 +122,13 @@ The following entries should be added to the [scope table][scope]:
 
 * “Retrieving images by their content-addressable hash”.
     Docker's registery API already provides endpoints for fetching manifest objects by digest][get-manifest].
-    Docker's registery API does not currently provides endpoints for fetching image objects by digest, but this is the project where that will happen.
+    Docker's registery API does not currently provide endpoints for fetching image objects by digest, but this is the project where that will happen.
 
     * What: Retrieving images by their content-addressable hash
     * In/Out/Future: In scope
     * Status: In progress (see opencontainers/distribution-spec)
     * Description: Specify a protocol for retrieving an image from a distribution engine by the image's content-addressable hash.
-    * Why: Using a hash as a name is a way to ensure a unique image name without relying on a particular naming authority/or system.
+    * Why: Using a hash as a name is a way to ensure a unique image name without relying on a particular naming authority or system.
         Using hashing for name is an acceptable addition as it does not encode any centralized namespace.
 
 The following entries should remain in the [scope table][scope] but not be addressed by this project:
