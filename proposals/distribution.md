@@ -4,6 +4,8 @@ The Docker registry protocol has become the defacto standard across the containe
 
 In the OCI, having a solid, common distribution specification with conformance testing will ensure long lasting security and interoperability throughout the container ecosystem.
 
+This proposal also provides the container ecosystem with a means to discuss and schedule extensions to the distribution specification.
+
 ## Proposal
 
 TL;DR; Move [`api.md`][api.md] to a new [distribution-spec project](https://github.com/opencontainers/distribution-spec).
@@ -107,16 +109,10 @@ The following entries should be added to the [scope table][scope]:
     Retrieving images covers the current “tag listing” (e.g. “what named manifests are in `library/busybox`?”), because tags are entries in the image format's [`manifests` array][manifests].
     Other tag-listing endpoints needed for backwards-compatibility are therefore in scope as well.
 
-    Repository actions and listing images within a repository are considered part of distribution policy or content management and are out of scope for this entry's per-image action.
-    For example, “what images are under `library/`?” is out of scope for this project.
-
     * What: Specifying a distribution method
     * In/Out/Future: In scope
     * Status: In progress (see opencontainers/distribution-spec)
     * Description: Define a protocol for image, manifest, config, and blob creation, retrieval, and deletion.
-        Listing repositories is a multi-repository action, which is out of scope for this entry.
-        Creating and deleting repositories are per-repository actions, which are out of scope for this entry.
-        Listing images within repositories is a per-repository action, which is out of scope for this entry.
     * Why: This specification will provide one (of possibly many) distribution specifications.
         Alternative distribution specifications may be developed for uses cases not covered by this specification, but defining them is currently out of scope for the OCI.
 
