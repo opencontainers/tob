@@ -11,6 +11,7 @@ TL;DR; Move [`api.md`][api.md] to a new [distribution-spec project](https://gith
 This proposal covers the distribution API spec, and while it does not cover the code for the docker-registry, that implementation is considered the reference implementation. There are other implementations of this protocol, not all are open-source though (Google gcr.io, Amazon ECR, CoreOS Quay, Gitlab registry, JFrog Artifactory registry, Huawei Dockyard, etc).
 
 In the past when the topic of having an OCI specification around the distribution of container images was discussed, it was deferred as "let’s get the image format defined, meanwhile the industry will settle on a distribution standard". Fast forward, OCI image format is out and adopted, and the Registry v2 is the defacto standard. There is and will be use-cases for alternate methods and the future will likely hold creative ways to push, fetch and share container images, but right now this promotion serves to acknowledge by the OCI the current industry standard of distributing container images.
+
 This proposal also provides the container ecosystem with a means to discuss and schedule extensions to the distribution specification.
 
 There is polish that is needed e.g. broken links to storage-driver docs, as well as making sections more generic regarding the OCI descriptors and media-types, but on the whole this is a lateral move.
@@ -107,16 +108,10 @@ The following entries should be added to the [scope table][scope]:
     Retrieving images covers the current “tag listing” (e.g. “what named manifests are in `library/busybox`?”), because tags are entries in the image format's [`manifests` array][manifests].
     Other tag-listing endpoints needed for backwards-compatibility are therefore in scope as well.
 
-    Repository actions and listing images within a repository are considered part of distribution policy or content management and are out of scope for this entry's per-image action.
-    For example, “what images are under `library/`?” is out of scope for this project.
-
     * What: Specifying a distribution method
     * In/Out/Future: In scope
     * Status: In progress (see opencontainers/distribution-spec)
     * Description: Define a protocol for image, manifest, config, and blob creation, retrieval, and deletion.
-        Listing repositories is a multi-repository action, which is out of scope for this entry.
-        Creating and deleting repositories are per-repository actions, which are out of scope for this entry.
-        Listing images within repositories is a per-repository action, which is out of scope for this entry.
     * Why: This specification will provide one (of possibly many) distribution specifications.
         Alternative distribution specifications may be developed for uses cases not covered by this specification, but defining them is currently out of scope for the OCI.
 
