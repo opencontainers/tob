@@ -104,30 +104,30 @@ The following entries should be added to the [scope table][scope]:
 * “Specifying a distribution method”.
     This entry replaces part of the previous “Creating Reference spec for optional DNS based naming & distribution” and “Standardizing on a particular Distribution method” entries.
 
-    Retrieving images covers the current “tag listing” (e.g. “what named manifests are in `library/busybox`?”), because tags are entries in the image format's [`manifests` array][manifests].
+    Retrieving image indexes covers the current “tag listing” (e.g. “what named manifests are in `library/busybox`?”), because tags are entries in the image format's [`manifests` array][manifests].
     Other tag-listing endpoints needed for backwards-compatibility are therefore in scope as well.
 
-    Repository actions and listing images within a repository are considered part of distribution policy or content management and are out of scope for this entry's per-image action.
+    Grouping image indexes in repositories is considered part of distribution policy or content management, which are out of scope for this entry's per-image action.
     For example, “what images are under `library/`?” is out of scope for this project.
 
     * What: Specifying a distribution method
     * In/Out/Future: In scope
     * Status: In progress (see opencontainers/distribution-spec)
-    * Description: Define a protocol for image, manifest, config, and blob creation, retrieval, and deletion.
-        Listing repositories is a multi-repository action, which is out of scope for this entry.
-        Creating and deleting repositories are per-repository actions, which are out of scope for this entry.
-        Listing images within repositories is a per-repository action, which is out of scope for this entry.
+    * Description: Define a protocol for creating, retrieving, updating, and deleting objects defined in the [image specification][image-spec].
+        Listing repositories (like [`/v2/_catalog`][catalog]) is a multi-[image-index][] action, which is out of scope for this entry.
+        Managing groups of image indexes requires multi-[image-index][] actions, which are out of scope for this entry.
+        Listing image indexes within a group is a multi-[image-index][] action, which is out of scope for this entry.
     * Why: This specification will provide one (of possibly many) distribution specifications.
         Alternative distribution specifications may be developed for uses cases not covered by this specification, but defining them is currently out of scope for the OCI.
 
-* “Retrieving images by their content-addressable hash”.
-    Docker's registery API already provides endpoints for fetching manifest objects by digest][get-manifest].
-    Docker's registery API does not currently provide endpoints for fetching image objects by digest, but this is the project where that will happen.
+* “Retrieving image content by its content-addressable hash”.
+    Docker's registry API already provides [endpoints for fetching manifest objects by digest][get-manifest].
+    Docker's registry API does not currently provide endpoints for fetching [image-index][] objects by digest, but this is the project where that will happen.
 
-    * What: Retrieving images by their content-addressable hash
+    * What: Retrieving image content by its content-addressable hash
     * In/Out/Future: In scope
     * Status: In progress (see opencontainers/distribution-spec)
-    * Description: Specify a protocol for retrieving an image from a distribution engine by the image's content-addressable hash.
+    * Description: Specify a protocol for retrieving an [image index][image-index], [manifest][], or other [image specification][image-spec] object from a distribution engine by its content-addressable hash.
     * Why: Using a hash as a name is a way to ensure a unique image name without relying on a particular naming authority or system.
         Using hashing for name is an acceptable addition as it does not encode any centralized namespace.
 
@@ -142,8 +142,12 @@ The following entries should remain in the [scope table][scope] but not be addre
 * Allows listing of manifests: docker/distribution#2199
 
 [api.md]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md
+[catalog]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md#catalog
 [get-manifest]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md#pulling-an-image-manifest
 [iana-auth]: http://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml
+[image-spec]: https://github.com/opencontainers/image-spec/
+[image-index]: https://github.com/opencontainers/image-spec/blame/v1.0.1/image-index.md
+[manifest]: https://github.com/opencontainers/image-spec/blob/v1.0.1/manifest.md
 [manifests]: https://github.com/opencontainers/image-spec/blame/v1.0.1/image-index.md#L23
 [rfc6750]: https://tools.ietf.org/html/rfc6750
 [rfc7230]: https://tools.ietf.org/html/rfc7230
