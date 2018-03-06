@@ -146,7 +146,7 @@ The following entries should remain in the [scope table][scope] but not be addre
 [get-manifest]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md#pulling-an-image-manifest
 [iana-auth]: http://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml
 [image-spec]: https://github.com/opencontainers/image-spec/
-[image-index]: https://github.com/opencontainers/image-spec/blame/v1.0.1/image-index.md
+[image-index]: https://github.com/opencontainers/image-spec/blob/v1.0.1/image-index.md
 [manifest]: https://github.com/opencontainers/image-spec/blob/v1.0.1/manifest.md
 [manifests]: https://github.com/opencontainers/image-spec/blame/v1.0.1/image-index.md#L23
 [rfc6750]: https://tools.ietf.org/html/rfc6750
