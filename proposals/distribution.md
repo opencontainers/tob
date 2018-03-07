@@ -86,7 +86,6 @@ The following entries should be added to the [scope table][scope]:
     * Status: N/A
     * Description: Defining protocols for authenticating and authorizing distribution access.
     * Why: As an HTTP-based protocol, clients and servers can negotiate authentication via HTTP's [challenge-response authentication framework][rfc7235-s2.1].
-        There is no need for the distribution specification to choose a particular authentication scheme, because clients receiving 401 and 407 responses can use IANA's [HTTP Authentication Scheme Registry][iana-auth] to look up referenced schemes and take appropriate action.
 
 * “Creating a reference spec for optional DNS based naming and discovery”.
     Discovery and registry protocols are completely separate and do not need to be added together.
@@ -144,7 +143,6 @@ The following entries should remain in the [scope table][scope] but not be addre
 [api.md]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md
 [catalog]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md#catalog
 [get-manifest]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md#pulling-an-image-manifest
-[iana-auth]: http://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml
 [image-spec]: https://github.com/opencontainers/image-spec/
 [image-index]: https://github.com/opencontainers/image-spec/blame/v1.0.1/image-index.md
 [manifest]: https://github.com/opencontainers/image-spec/blob/v1.0.1/manifest.md
