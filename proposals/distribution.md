@@ -112,10 +112,8 @@ The following entries should be added to the [scope table][scope]:
     * What: Specifying a distribution method
     * In/Out/Future: In scope
     * Status: In progress (see opencontainers/distribution-spec)
-    * Description: Define a protocol for creating, retrieving, updating, and deleting objects defined in the [image specification][image-spec].
-        Listing repositories (like [`/v2/_catalog`][catalog]) is a multi-[image-index][] action, which is out of scope for this entry.
-        Managing groups of image indexes requires multi-[image-index][] actions, which are out of scope for this entry.
-        Listing image indexes within a group is a multi-[image-index][] action, which is out of scope for this entry.
+    * Description: Define a protocol for creating, retrieving, updating, and deleting content-addressable objects, such as those defined in the [image specification][image-spec].
+		Listing repositories is a registry-wide operation; the implementation of which is out of scope of this document.
     * Why: This specification will provide one (of possibly many) distribution specifications.
         Alternative distribution specifications may be developed for uses cases not covered by this specification, but defining them is currently out of scope for the OCI.
 
