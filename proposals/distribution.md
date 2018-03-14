@@ -103,11 +103,10 @@ The following entries should be added to the [scope table][scope]:
 * “Specifying a distribution method”.
     This entry replaces part of the previous “Creating Reference spec for optional DNS based naming & distribution” and “Standardizing on a particular Distribution method” entries.
 
-    Retrieving image indexes covers the current “tag listing” (e.g. “what named manifests are in `library/busybox`?”), because tags are entries in the image format's [`manifests` array][manifests].
-    Other tag-listing endpoints needed for backwards-compatibility are therefore in scope as well.
+    Tag-listing (e.g. “what named manifests are in `library/busybox`?”) endpoints are in scope and required for backwards compatibility with clients.
 
-    Grouping image indexes in repositories is considered part of distribution policy or content management, which are out of scope for this entry's per-image action.
-    For example, “what images are under `library/`?” is out of scope for this project.
+    Managing the grouping of image repository names is considered part of distribution policy or content management, which are out of scope.
+    For example, “which image repositories are under `library/`?” is out of scope for this project.
 
     * What: Specifying a distribution method
     * In/Out/Future: In scope
