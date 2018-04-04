@@ -20,11 +20,11 @@ https://groups.google.com/a/opencontainers.org/forum/#!forum/tob (tob@opencontai
 
 ## Project Proposals
 
-* [Digest](https://github.com/opencontainers/tob/blob/master/proposals/digest.md)
-* [Distribution Spec](https://github.com/opencontainers/tob/blob/master/proposals/distribution.md)
-* [Image Format Spec](https://github.com/opencontainers/tob/tree/master/proposals/image-format)
-* [SELinux](https://github.com/opencontainers/tob/blob/master/proposals/selinux.md)
-* [Tools](https://github.com/opencontainers/tob/blob/master/proposals/tools.md)
+* [Digest](proposals/digest.md)
+* [Distribution Spec](proposals/distribution.md)
+* [Image Format Spec](proposals/image-format)
+* [SELinux](proposals/selinux.md)
+* [Tools](proposals/tools.md)
 
 ## Voting
 
