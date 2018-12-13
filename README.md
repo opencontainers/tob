@@ -20,6 +20,7 @@ https://groups.google.com/a/opencontainers.org/forum/#!forum/tob (tob@opencontai
 
 ## Project Proposals
 
+* [CNAB](proposals/cnab.md)
 * [Digest](proposals/digest.md)
 * [Distribution Spec](proposals/distribution.md)
 * [Image Format Spec](proposals/image-format)
