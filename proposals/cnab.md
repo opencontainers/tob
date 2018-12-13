@@ -4,6 +4,10 @@ Cloud Native Application Bundles (CNAB) are a package format specification that 
 
 ## Proposal
 
+That the Cloud Native Application Bundles (CNAB) specification be hosted and governed as a part of the Open Container Initiative (OCI). Addtionally we would move [https://github.com/deislabs/cnab-spec/](https://github.com/deislabs/cnab-spec/) to a new [cnab-spec project](https://github.com/opencontainers/cnab-spec).
+
+### Background 
+
 The goal of Cloud Native Application Bundles (CNAB) is to provide a packaging standard that is flexible enough to accommodate the services and runtimes of today and anticipate those of tomorrow. 
 
 The introduction of CNAB facilitates standardization around packaging and distribution as a foundation, while creating an opporunity for an ecosystem of opinionated tooling to exist. For example, in existing prototypes an application can be built with Docker-App and deployed using Duffle.
