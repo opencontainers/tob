@@ -7,7 +7,7 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 * **Vincent Batts [Red Hat]** (term date: 1/29/2017 - 1/29/2019)
 * **Taylor Brown [Microsoft]** (term date: 1/29/2018 - 1/29/2020)
 * **Michael Crosby [Docker] (TOB Chair)** (term date: 1/29/2017 - 1/29/2019)
-* **Stephen Day [Docker]** (term date: 1/29/2018 - 1/29/2020)
+* **Stephen Day [Cruise]** (term date: 1/29/2018 - 1/29/2020)
 * **Phil Estes [IBM]** (term date: 1/29/2018 - 1/29/2020)
 * **Jon Johnson [Google]** (term date: 1/29/2018 - 1/29/2020)
 * **Vishnu Kannan [Google]** (term date: 1/29/2017 - 1/29/2019)
