@@ -4,15 +4,15 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 ## Members
 
-* **Vincent Batts [Red Hat]** (term date: 1/29/2017 - 1/29/2019)
+* **Vincent Batts [Red Hat]** (term date: 1/29/2019 - 1/29/2021)
 * **Taylor Brown [Microsoft]** (term date: 1/29/2018 - 1/29/2020)
-* **Michael Crosby [Docker] (TOB Chair)** (term date: 1/29/2017 - 1/29/2019)
+* **Michael Crosby [Docker] (TOB Chair)** (term date: 1/29/2019 - 1/29/2021)
 * **Stephen Day [Cruise]** (term date: 1/29/2018 - 1/29/2020)
 * **Phil Estes [IBM]** (term date: 1/29/2018 - 1/29/2020)
 * **Jon Johnson [Google]** (term date: 1/29/2018 - 1/29/2020)
-* **Vishnu Kannan [Google]** (term date: 1/29/2017 - 1/29/2019)
-* **Greg Kroah-Hartman [Linux Foundation]** (term date: 1/29/2017 - 1/29/2019)
+* **Derek McGowan [Docker]** (term date: 1/29/2019 - 1/29/2021)
 * **Mrunal Patel [Red Hat]** (term date: 1/29/2018 - 1/29/2020)
+* **Aleksa Sarai [SUSE]** (term date: 1/29/2019 - 1/29/2021)
 
 ## Mailing List
 
