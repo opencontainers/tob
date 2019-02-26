@@ -34,7 +34,7 @@ Initial maintainers of the image-tools project shall be:
 * Maintainers of the image-spec project
 
 ### Code of Conduct
-Both of the proposed projects would incorporate (by reference) the OCI [Code of Conduct](code-of-conduct).
+Both of the proposed projects would incorporate (by reference) the OCI [Code of Conduct][code-of-conduct].
 
 ### Governance and Releases
 Both of the proposed projects would incorporate the Governance and Releases processes from the OCI project template: https://github.com/opencontainers/project-template.

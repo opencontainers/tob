@@ -23,7 +23,7 @@ Initial maintainers of the go-digest project would be seeded from the image-spec
 * Vincent Batts <vbatts@redhat.com> (@vbatts)
 
 ### Code of Conduct
-This project would incorporate (by reference) the OCI [Code of Conduct](code-of-conduct).
+This project would incorporate (by reference) the OCI [Code of Conduct][code-of-conduct].
 
 ### Governance and Releases
 This project would incorporate the Governance and Releases processes from the OCI project template: https://github.com/opencontainers/project-template.

@@ -25,7 +25,7 @@ Initial maintainers of the go-selinux project would be:
 * Stephen Smalley <sds@tycho.nsa.gov> (@stephensmalley)
 
 ### Code of Conduct
-This project would incorporate (by reference) the OCI [Code of Conduct](code-of-conduct).
+This project would incorporate (by reference) the OCI [Code of Conduct][code-of-conduct].
 
 ### Governance and Releases
 This project would incorporate the Governance and Releases processes from the OCI project template: https://github.com/opencontainers/project-template.

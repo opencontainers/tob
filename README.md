@@ -34,7 +34,7 @@ TOB members can either respond "agree, yes, +1", "disagree, no, -1", or "abstain
 
 ## Code of Conduct
 
-Participation in the OpenContainers community is governed by [OpenContainer's Code of Conduct](code-of-conduct).
+Participation in the OpenContainers community is governed by [OpenContainer's Code of Conduct][code-of-conduct].
 
 ## Security
 
