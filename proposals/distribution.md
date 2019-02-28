@@ -139,7 +139,7 @@ The following entries should remain in the [scope table][scope] but not be addre
 
 [api.md]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md
 [catalog]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md#catalog
-[code-of-conduct]: https://github.com/opencontainers/org/blob/master/.github/CODE_OF_CONDUCT.md
+[code-of-conduct]: https://github.com/opencontainers/org/blob/master/CODE_OF_CONDUCT.md
 [get-manifest]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md#pulling-an-image-manifest
 [image-spec]: https://github.com/opencontainers/image-spec/
 [image-index]: https://github.com/opencontainers/image-spec/blob/v1.0.1/image-index.md

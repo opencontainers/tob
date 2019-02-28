@@ -56,4 +56,4 @@ A: There's no versioning of selinux in run.  For instance, we fixed something in
 
 A: docker, rkt, CRI-O, kubernetes, any other project out there requiring a dedicated selinux library.
 
-[code-of-conduct]: https://github.com/opencontainers/org/blob/master/.github/CODE_OF_CONDUCT.md
+[code-of-conduct]: https://github.com/opencontainers/org/blob/master/CODE_OF_CONDUCT.md

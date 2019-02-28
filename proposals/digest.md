@@ -47,4 +47,4 @@ It will provide digesting functionality for all present and future versions of t
 A: No.  Nothing in this proposal is intended to amend the OCI Charter (https://www.opencontainers.org/about/governance) or OCI Scope Table (https://www.opencontainers.org/about/oci-scope-table).
 
 [image-spec-486]: https://github.com/opencontainers/image-spec/pull/486
-[code-of-conduct]: https://github.com/opencontainers/org/blob/master/.github/CODE_OF_CONDUCT.md
+[code-of-conduct]: https://github.com/opencontainers/org/blob/master/CODE_OF_CONDUCT.md

@@ -48,4 +48,4 @@ If you find an issue, please follow the [security][security] protocol to report 
 
 
 [security]: https://github.com/opencontainers/org/blob/master/security
-[code-of-conduct]: https://github.com/opencontainers/org/blob/master/.github/CODE_OF_CONDUCT.md
+[code-of-conduct]: https://github.com/opencontainers/org/blob/master/CODE_OF_CONDUCT.md
