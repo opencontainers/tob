@@ -37,7 +37,7 @@ Additional Maintainers to consider:
 
 ## Code of Conduct
 
-This project would incorporate (by reference) the OCI Code of Conduct ([https://github.com/opencontainers/tob/blob/master/code-of-conduct.md](https://github.com/opencontainers/tob/blob/master/code-of-conduct.md)).
+This project would incorporate (by reference) the OCI [Code of Conduct][code-of-conduct].
 
 ## Governance and Releases
 
@@ -77,7 +77,7 @@ The following scope entries should be removed from the [scope table][scope]:
 
 The following entries should be added to the [scope table][scope]:
 
-* “Specifying authentication and authorization schemes”.
+* "Specifying authentication and authorization schemes".
     Docker's current registry uses an [extension][token] of the [`Bearer`][rfc6750] [auth scheme][rfc7235-s2.1].
     Work on specifying Docker's scheme will continue independently, and is orthogonal to the registry API.
 
@@ -87,7 +87,7 @@ The following entries should be added to the [scope table][scope]:
     * Description: Defining protocols for authenticating and authorizing distribution access.
     * Why: As an HTTP-based protocol, clients and servers can negotiate authentication via HTTP's [challenge-response authentication framework][rfc7235-s2.1].
 
-* “Creating a reference spec for optional DNS based naming and discovery”.
+* "Creating a reference spec for optional DNS based naming and discovery".
     Discovery and registry protocols are completely separate and do not need to be added together.
     This entry replaces part of the previous “Creating Reference spec for optional DNS based naming & distribution” entry.
 
@@ -100,14 +100,14 @@ The following entries should be added to the [scope table][scope]:
         There are many good use cases for DNS based distribution, but not all use cases support this.
         Furthermore, encoding the location of a bundle into the bundle can cause issues with downloads from alternate locations other than the origin specified in the name.
 
-* “Specifying a distribution method”.
-    This entry replaces part of the previous “Creating Reference spec for optional DNS based naming & distribution” and “Standardizing on a particular Distribution method” entries.
+* "Specifying a distribution method".
+    This entry replaces part of the previous "Creating Reference spec for optional DNS based naming & distribution" and "Standardizing on a particular Distribution method" entries.
 
-    Tag-listing (e.g. “what named manifests are in `library/busybox`?”) endpoints are in scope and required for backwards compatibility with clients.
+    Tag-listing (e.g. "What named manifests are in `library/busybox`?") endpoints are in scope and required for backwards compatibility with clients.
     An endpoint for listing image repository names within a registry is considered out of scope for this specification.
 
     Managing the grouping of image repository names is considered part of distribution policy or content management, which are out of scope.
-    For example, “which image repositories are under `library/`?” is out of scope for this project.
+    For example, "Which image repositories are under `library/`?" is out of scope for this project.
 
     * What: Specifying a distribution method
     * In/Out/Future: In scope
@@ -116,7 +116,7 @@ The following entries should be added to the [scope table][scope]:
     * Why: This specification will provide one (of possibly many) distribution specifications.
         Alternative distribution specifications may be developed for uses cases not covered by this specification, but defining them is currently out of scope for the OCI.
 
-* “Retrieving image content by its content-addressable hash”.
+* "Retrieving image content by its content-addressable hash".
     Docker's registry API already provides [endpoints for fetching manifest objects by digest][get-manifest].
     Docker's registry API does not currently provide endpoints for fetching [image-index][] objects by digest, but this is the project where that will happen.
 
@@ -129,7 +129,7 @@ The following entries should be added to the [scope table][scope]:
 
 The following entries should remain in the [scope table][scope] but not be addressed by this project:
 
-* “Specifying way to attach signatures”.
+* "Specifying way to attach signatures".
     We don't need to address this as part of distribution, because all resources are content-addressable and can be signed in external systems.
 
 ## Related GitHub Issues
@@ -139,6 +139,7 @@ The following entries should remain in the [scope table][scope] but not be addre
 
 [api.md]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md
 [catalog]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md#catalog
+[code-of-conduct]: https://github.com/opencontainers/org/blob/master/CODE_OF_CONDUCT.md
 [get-manifest]: https://github.com/docker/distribution/blob/5cb406d511b7b9163bff9b6439072e4892e5ae3b/docs/spec/api.md#pulling-an-image-manifest
 [image-spec]: https://github.com/opencontainers/image-spec/
 [image-index]: https://github.com/opencontainers/image-spec/blob/v1.0.1/image-index.md

@@ -23,7 +23,7 @@ Initial maintainers of the go-digest project would be seeded from the image-spec
 * Vincent Batts <vbatts@redhat.com> (@vbatts)
 
 ### Code of Conduct
-This project would incorporate (by reference) the OCI Code of Conduct.
+This project would incorporate (by reference) the OCI [Code of Conduct][code-of-conduct].
 
 ### Governance and Releases
 This project would incorporate the Governance and Releases processes from the OCI project template: https://github.com/opencontainers/project-template.
@@ -47,3 +47,4 @@ It will provide digesting functionality for all present and future versions of t
 A: No.  Nothing in this proposal is intended to amend the OCI Charter (https://www.opencontainers.org/about/governance) or OCI Scope Table (https://www.opencontainers.org/about/oci-scope-table).
 
 [image-spec-486]: https://github.com/opencontainers/image-spec/pull/486
+[code-of-conduct]: https://github.com/opencontainers/org/blob/master/CODE_OF_CONDUCT.md

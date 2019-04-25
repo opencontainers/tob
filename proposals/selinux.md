@@ -25,7 +25,7 @@ Initial maintainers of the go-selinux project would be:
 * Stephen Smalley <sds@tycho.nsa.gov> (@stephensmalley)
 
 ### Code of Conduct
-This project would incorporate (by reference) the OCI Code of Conduct.
+This project would incorporate (by reference) the OCI [Code of Conduct][code-of-conduct].
 
 ### Governance and Releases
 This project would incorporate the Governance and Releases processes from the OCI project template: https://github.com/opencontainers/project-template.
@@ -55,3 +55,5 @@ A: There's no versioning of selinux in run.  For instance, we fixed something in
 *Q: Who are the other target users of go-selinux?*
 
 A: docker, rkt, CRI-O, kubernetes, any other project out there requiring a dedicated selinux library.
+
+[code-of-conduct]: https://github.com/opencontainers/org/blob/master/CODE_OF_CONDUCT.md

@@ -53,4 +53,3 @@ A: Existing formats can continue to be a proving ground for technologies, as nee
   * Release version of spec with improvements from two independent experimental implementations from OCI members e.g. Amazon Container Registry and rkt
 * June ??? v1.0.0
   * Release initial version of spec with two independent non-experimental implementations from OCI members
-
