@@ -1,13 +1,13 @@
 # OCI artifact project proposal
 
 ## Abstract
-Container registries, implementing the [distribution-spec][distribtuion-spec], provide reliable, highly scalable, secured storage services for container images. Customers either use a cloud provider implementation, vendor implementations, or instance the open source implementation of distribution. They configure security and networking to assure the images in the registry are locked down and accessible by the resources required. Cloud providers and vendors often provide additional values atop their registry implementations from security to productivity features. 
+Container registries, implementing the [distribution-spec][distribution-spec], provide reliable, highly scalable, secured storage services for container images. Customers either use a cloud provider implementation, vendor implementations, or instance the open source implementation of distribution. They configure security and networking to assure the images in the registry are locked down and accessible by the resources required. Cloud providers and vendors often provide additional values atop their registry implementations from security to productivity features. 
 
 Applications and services typically require additional artifacts to deploy and manage, including [helm](https://helm.sh) for deployment and [Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa/issues/1413) for policy enforcement.
 
 Utilizing the [manifest][image-manifest] and [index][image-index] definitions, new artifacts can be stored and served using the [distribution-spec][distribution-spec] without changing the actual distribution spec. This repository will provide  a reference for artifact authors and registry implementors for supporting new artifact types with the existing implementations of distribution.
 
-By providing an OCI artifact definition, the community can continue to innovate, focusing on new artifact types without having to build yet another storage solution (yass). 
+By providing an OCI artifact definition, the community can continue to innovate, focusing on new artifact types without having to build yet another storage solution (YASS). 
 
 ## Proposal
 Under the http://github.com/opencontainers organization:
@@ -42,9 +42,11 @@ Both of the proposed projects would continue to use existing channels in use by 
 * The #OpenContainers IRC channel
 
 ### Versioning / Roadmap
-Artifacts will reference specific [distribution][distribution-spec], [index][image-index] and [manifest][image-manifest] versions in its examples, identifying any dependencies required. 
+This repository will not be versioned, but will be continuously updated with a list of versioned types with historical references. This repository will not have releases.
 
-## Frequenty Asked Questions (FAQ)
+Artifacts will reference specific [distribution][distribution-spec], [index][image-index] and [manifest][image-manifest] versions in its examples and references for capabilities.
+
+## Frequently Asked Questions (FAQ)
 
 **Q: Does this change the OCI Charter or Scope Table?**
 
