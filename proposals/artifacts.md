@@ -20,7 +20,7 @@ Under the http://github.com/opencontainers organization:
 The repository will serve 2 primary goals:
 
 1. **artifact authors** - guidance for authoring new artifact types. Including a clearing house for well known artifact types.
-1. **registry operators and vendors** - guidance for how they can support new artifact types, including how they can opt-in or out of well known artifact types. 
+1. **registry operators and vendors** - guidance for how operators and vendors can support new artifact types, including how they can opt-in or out of well known artifact types. Registry operators that already implement `media-type` filtering will not have to change. The artifact repo will provide context on how new `media-type`s can be used, and how `media-type`s can be associated with a type of artifact. 
 
 ### Initial Maintainers
 Initial maintainers of the artifacts project would be :
