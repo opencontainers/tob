@@ -20,6 +20,7 @@ https://groups.google.com/a/opencontainers.org/forum/#!forum/tob (tob@opencontai
 
 ## Project Proposals
 
+* [Artifacts](proposals/artifacts.md)
 * [Digest](proposals/digest.md)
 * [Distribution Spec](proposals/distribution.md)
 * [Image Format Spec](proposals/image-format)
@@ -45,7 +46,6 @@ If you find an issue, please follow the [security][security] protocol to report 
 * [Feb 23rd, 2016](https://docs.google.com/presentation/d/1thxH4PVmHZO3kWrrLL6H1jAhL4r31Zy8xn8wg1LCmjY/edit#slide=id.p3)
 * [Mar 4th, 2016](https://docs.google.com/presentation/d/1sHnTyM5S9IGt4jmdlI2D6dzl_8EBSIaRD0oNvmu7ILQ/edit?ts=56d86a8b#slide=id.p3)
 * [Mar 18th, 2016](https://docs.google.com/presentation/d/1tANha5hGnOiMh7DAfVhJ5fNwFLXd0iAqrYLGmPZu94I/edit#slide=id.g11f2d5d0f8_4_4)
-
 
 [security]: https://github.com/opencontainers/org/blob/master/security
 [code-of-conduct]: https://github.com/opencontainers/org/blob/master/CODE_OF_CONDUCT.md
