@@ -26,6 +26,7 @@ https://groups.google.com/a/opencontainers.org/forum/#!forum/tob (tob@opencontai
 * [Image Format Spec](proposals/image-format)
 * [SELinux](proposals/selinux.md)
 * [Tools](proposals/tools.md)
+* [ORAS](proposals/oras.md)
 
 ## Voting
 
