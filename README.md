@@ -43,6 +43,8 @@ If you find an issue, please follow the [security][security] protocol to report 
 
 ## Meeting Minutes
 
+* [April 6th, 2020](https://hackmd.io/kKl1ECKnSLWhgk7dZ2WUFQ)
+* [Mar 2nd, 2020](https://hackmd.io/kKl1ECKnSLWhgk7dZ2WUFQ)
 * [Feb 23rd, 2016](https://docs.google.com/presentation/d/1thxH4PVmHZO3kWrrLL6H1jAhL4r31Zy8xn8wg1LCmjY/edit#slide=id.p3)
 * [Mar 4th, 2016](https://docs.google.com/presentation/d/1sHnTyM5S9IGt4jmdlI2D6dzl_8EBSIaRD0oNvmu7ILQ/edit?ts=56d86a8b#slide=id.p3)
 * [Mar 18th, 2016](https://docs.google.com/presentation/d/1tANha5hGnOiMh7DAfVhJ5fNwFLXd0iAqrYLGmPZu94I/edit#slide=id.g11f2d5d0f8_4_4)
