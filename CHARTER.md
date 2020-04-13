@@ -142,7 +142,7 @@ n. The intention is for the TOB to operate by consensus. However, if consensus c
 
 o. Any issues that cannot be resolved by the TOB shall be referred to The Linux Foundation Executive Director for mediation, and, if necessary, for resolution by The Linux Foundation Board of Directors.
 
-# 7. OCI Values. 
+## 7. OCI Values. 
 
 The TDC and TOB shall strive to reflect and adhere to the following values (“OCI Values”) for OCI Projects:
 
@@ -160,7 +160,7 @@ f. Minimalist. The OCI Specifications should aim to do a few things well, be min
 
 g. Backward compatible. The first version of the OCI Specification should strive to be backwards compatible with the initial container image format and runtime contribution. OCI Specifications and code should strive to be backward compatible with the prior releases of the OCI Specification.
 
-# 8. OCI IP Policy.
+## 8. OCI IP Policy.
 
 a. All new inbound contributions to OCI will be made under the Apache License, Version 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0) accompanied by a Developer Certificate of Origin sign-off (http://developercertificate.org). All contributions by Member employees will bind their employers in accordance with this policy, including the patent and copyright license grants in the Apache License, Version 2.0.
 
@@ -172,7 +172,7 @@ d. Upon finalization and release of a new version of any OCI specification, OCI 
 
 e. On the effective date of their membership, all Members will, without further action, be subject to the obligations set forth in the OWFa 1.0 (Patent Only) with respect to the current and one immediately prior version of all OCI specifications, a version being a numerically designated version of the specification formally released following the thirty day period provided for in (d) above. Each new version of the specification will be designated by a change in the number to the left of the decimal point (x in an x.y format where y designates interim update releases).
 
-# 9. Antitrust Guidelines
+## 9. Antitrust Guidelines
 
 a. All Members shall abide by The Linux Foundation Antitrust Policy available at http://www.linuxfoundation.org/antitrust-policy.
 
@@ -188,7 +188,7 @@ c. The Linux Foundation shall provide regular reports of spend levels against th
 
 d. The Linux Foundation shall have custody of and final authority over the usage of all OCI fees, funds and other cash receipts. To the extent that OCI acquires ownership in any intellectual property, ownership shall reside in The Linux Foundation.
 
-# 11. The Linux Foundation General Rules and Operations.
+## 11. The Linux Foundation General Rules and Operations.
 
 The OCI, and as appropriate, its Members and participants, shall operate under such rules and policies as may from time to time be applicable to Linux Foundation hosted projects, and, in addition, shall:
 
@@ -206,7 +206,7 @@ f. engage The Linux Foundation for creation and management of any websites relat
 
 g. operate under such rules and procedures as may from time to time be approved by the OCI and confirmed by The Linux Foundation Board of Directors.
 
-# 12. Amendments and Notice
+## 12. Amendments and Notice
 
 a. This Charter may be amended by a two thirds vote of the Technical Oversight Board, subject to veto by The Linux Foundation Board of Directors for reasonable cause, with thirty (30) days’ notice to the OCI Members before taking effect.
 
