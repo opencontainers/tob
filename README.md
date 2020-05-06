@@ -4,7 +4,7 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 ## Members
 
-* **Vincent Batts [Red Hat]** (term date: 1/29/2019 - 1/29/2021)
+* **Vincent Batts [Kinvolk]** (term date: 1/29/2019 - 1/29/2021)
 * **Michael Crosby [Docker]** (term date: 1/29/2019 - 1/29/2021)
 * **Phil Estes [IBM] (TOB Chair)** (term date: 1/29/2020 - 1/29/2022)
 * **Wei Fu [Alibaba]** (term date: 1/29/2020 - 1/29/2022)
