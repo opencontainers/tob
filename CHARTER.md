@@ -1,10 +1,11 @@
-# Open Container Initiative Charter v1.0
+# Open Container Initiative Charter v1.1
 
 Effective 13 November 2015
+Updated 6 May 2020
 
 ##  1. Mission of the Open Container Initiative (“OCI”).
 
-The Open Container Initiative provides an open source technical community within which industry participants may easily contribute to building a vendor-neutral, portable and open specification and runtime that deliver on the promise of containers as a source of application portability backed by a certification program.
+The Open Container Initiative provides an open source technical community within which industry participants may easily contribute to building vendor-neutral, portable and open specifications and runtime that deliver on the promise of containers as a source of application portability backed by a certification program.
 
 The Open Container Initiative does not seek to be a marketing organization, define a full stack or solution requirements, and will strive to avoid standardizing technical areas undergoing innovation and debate.
 
@@ -15,7 +16,7 @@ OCI container format specification*. While the mission of OCI is not to create a
 
 (*) “Container format” represents the on-disk bundle that contains a root filesystem along with configuration necessary to allow the container to be executed.
 
-Where there is desire to reach standardization for a particular use case, it is appropriate for the OCI to ‘enable’ particular usages, without standardizing at the base layer, by defining separate, optional layers. A table mentioning examples of items in OCI base layer, optional layer, and out of scope can be found in the document: “[OCI Scope Table: Examples of possible projects.](https://www.opencontainers.org/about/oci-scope-table)”
+Where there is desire to reach standardization for a particular use case, it is appropriate for the OCI to ‘enable’ particular usages, without standardizing at the base layer, by defining separate, optional layers.
 
 ## 2. OCI Projects
 
