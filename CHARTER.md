@@ -5,7 +5,7 @@ Updated 6 May 2020
 
 ##  1. Mission of the Open Container Initiative (“OCI”).
 
-The Open Container Initiative provides an open source technical community within which industry participants may easily contribute to building a vendor-neutral, portable and open specifications and runtime that deliver on the promise of containers as a source of application portability backed by a certification program.
+The Open Container Initiative provides an open source technical community within which industry participants may easily contribute to building vendor-neutral, portable and open specifications and runtime that deliver on the promise of containers as a source of application portability backed by a certification program.
 
 The Open Container Initiative does not seek to be a marketing organization, define a full stack or solution requirements, and will strive to avoid standardizing technical areas undergoing innovation and debate.
 
