@@ -1,7 +1,9 @@
 # Open Container Initiative Charter v1.1
 
-Effective 13 November 2015
-Updated 6 May 2020
+| Comment          | Effective Date   |
+| ---------------- |:----------------:|
+| Initial release  | 13 November 2015 |
+| Update           | 6 May 2020       |
 
 ##  1. Mission of the Open Container Initiative (“OCI”).
 
