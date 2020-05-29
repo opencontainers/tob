@@ -1,11 +1,11 @@
 # Technical Oversight Board (TOB)
 
-The TOB is responsible for managing conflicts, violations of procedures or guidelines and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects. The TOB shall also be responsible for adding, removing or reorganizing OCI Projects. 
+The TOB is responsible for managing conflicts, violations of procedures or guidelines and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects. The TOB shall also be responsible for adding, removing or reorganizing OCI Projects.
 
 ## Members
 
 * **Vincent Batts [Kinvolk]** (term date: 1/29/2019 - 1/29/2021)
-* **Michael Crosby [Docker]** (term date: 1/29/2019 - 1/29/2021)
+* **Michael Crosby [Apple]** (term date: 1/29/2019 - 1/29/2021)
 * **Phil Estes [IBM] (TOB Chair)** (term date: 1/29/2020 - 1/29/2022)
 * **Wei Fu [Alibaba]** (term date: 1/29/2020 - 1/29/2022)
 * **Jon Johnson [Google]** (term date: 1/29/2020 - 1/29/2022)
