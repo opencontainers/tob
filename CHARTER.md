@@ -1,12 +1,18 @@
-# Open Container Initiative Charter v1.2
+# Open Container Initiative Charter v1.2+DRAFT
 
-| Comment          | Effective Date   |
-| ---------------- |:----------------:|
-| Initial release  | 13 November 2015 |
-| Update           | 18 May 2020      |
-| Update (simplify)| 4 June 2020      |
+| Version   | Notice Date | Effective Date | Changes                                  |
+| --------- | ----------- | -------------- | ---------------------------------------- |
+| 1.0       | 2015-11-13  | 2015-11-13     | *Initial release.*                       |
+| 1.1       | 2020-05-06  | 2020-06-05     | &bull; *(Section 1)* Remove scope table. |
+| 1.2       | 2020-06-04  | 2020-07-04     | &bull; *(Section 1)* Simplify mission.   |
+| 1.2+DRAFT |             |                | &bull; *(Section 12)* Formalise changelog, version numbers, and draft charter versions. |
 
-##  1. Mission of the Open Container Initiative (“OCI”).
+> **NOTE**: The "notice date" is the date at which OCI Members were given
+> notice regarding the relevant changes, and the "effective date" is the date
+> when the respective version of the Charter came into effect -- in accordance
+> with Section 12 (a) of this Charter.
+
+## 1. Mission of the Open Container Initiative ("OCI")
 
 The Open Container Initiative provides an open source technical community
 within which industry participants may easily contribute to building
@@ -459,3 +465,15 @@ b. A Member may resign within such thirty-day notice period, or within the
    not have any effect on commitments made by the OCI Member or participant
    during the term of membership. Resignation may be made by email to the
    Executive Director of the Linux Foundation.
+
+c. Each version of this Charter will have a distinguishing version number, with
+   a changelog included in the preamble describing material changes to the
+   Charter.
+
+d. In order to facilitate collaborative development of this Charter, draft
+   versions of this Charter may be indicated by the suffix "+DRAFT" added to
+   the version number. These Charter versions are not enforceable, and the most
+   recently published non-draft Charter remains in effect until a newer
+   non-draft Charter is published. For the avoidance of doubt, amendments to a
+   draft Charter still must go through the same process as amendments to a
+   non-draft Charter (as described in Section 12 (a) of this Charter).
