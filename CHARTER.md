@@ -5,6 +5,7 @@
 | 1.0       | 2015-11-13  | 2015-11-13     | *Initial release.*                       |
 | 1.1       | 2020-05-06  | 2020-06-05     | &bull; *(Section 1)* Remove scope table. |
 | 1.2       | 2020-06-04  | 2020-07-04     | &bull; *(Section 1)* Simplify mission.   |
+| 1.2+DRAFT |             |                | &bull; *(Section 2)* Simplify OCI Project definition and clarify scope. |
 | 1.2+DRAFT |             |                | &bull; *(Section 6)* Unify TOB voting rules to always require a qualified super-majority for decisions. |
 | 1.2+DRAFT |             |                | &bull; *(Section 12)* Formalise changelog, version numbers, and draft charter versions. |
 
@@ -27,42 +28,103 @@ standardizing technical areas undergoing innovation and debate.
 
 ## 2. OCI Projects
 
-a. The OCI will maintain a collection of projects to execute its Mission (“OCI
-   Projects”). The initial OCI Projects shall be the specification (“OCI
-   Specification”) and runtime (“runc”) projects. When an OCI Project claims
-   that a feature is provided from the OCI Specification, all of its
-   constituent parts shall comply with the OCI Specification. An OCI project
-   may have additional capabilities that are not reflected in the associated
-   specification. In this case, it is understood that the specification (and
-   any associated test suites) are the standard for judging compliance, not the
-   reference implementation.
+a. The OCI will maintain a collection of projects ("OCI Projects") to execute
+   its Mission as outlined in Section 1 of this Charter.
 
-b. OCI Projects may be modified by the Technical Oversight Board so long as
-   such modifications are in the spirit of the original charter. For example,
-   the TOB may choose to add a top level Compliance Test Suite project or a
-   reference implementation for an optional layer item.
+b. Each OCI Project must belong to a category (hereafter "Project Category" in
+   this Section), meaning it must be categorised as:
 
-c. Any Member can bring forward a new project proposal to the TOB for review.
-   Approval of a new OCI Project requires the TOB to decide in favour of the
-   proposal, following the process outlined in Section 6 (n) of this Charter.
+   - i. a specification ("OCI Specification"), which describes an industry
+     standard that the OCI maintains, which must be within the scope of the
+     OCI's Mission as described in Section 1 of this Charter; or
+   - ii. a reference implementation ("OCI Reference Implementation"), which
+     implements an OCI Specification; or
+   - iii. a conformance test suite ("OCI Conformance Suite"), which can be used
+     to validate whether a (possibly third-party) project implements an OCI
+     Specification correctly, and may be used as a basis for judging
+     conformance to an OCI Specification (notwithstanding Section 2 (c) of this
+     Charter); or
+   - iv. a library ("OCI Library"), which is small, reusable, and can assist
+     other projects in implementing an OCI Specification.
 
-d. A project need not be contributed to the OCI in order to be deemed compliant
-   with an associated OCI specification. For avoidance of doubt, a runtime can
-   be compliant with the OCI Specification even if: a)it differs substantially
-   from runC, b)it is housed outside the OCI, c)it is licensed differently from
-   runC, including if it is licensed under a proprietary license.
+c. The initial OCI Projects shall be:
 
-e. In order to support d. above, it is expected that:
+   - i. an OCI Specification for container runtimes ("OCI Runtime
+     Specification"); and
+   - ii. an OCI Reference Implementation of the OCI Runtime Specification
+     ("runc").
 
-   - i. there may be functionality in runC that is not included in the
-     specification, provided that such functionality does not compromise
-     compliance with the specification, and
-   - ii. there may be multiple other implementations of the specification that
-     also contain functionality not included in the specification, and
-   - iii. there will be a strong bias to exclude items from the specification
-     in technical areas undergoing significant innovation and debate,
-     especially if those areas are likely to be the basis of differentiation
-     between competing implementations.
+d. When an OCI Project claims that a feature is provided from an OCI
+   Specification, all of its constituent parts shall comply with the OCI
+   Specification. An OCI Project may have additional capabilities that are not
+   reflected in the associated OCI Specification. In this case, it is
+   understood that the OCI Specification (and any associated OCI Conformance
+   Suites) are the standard for judging compliance, not the OCI Project. For
+   the avoidance of doubt, this means that if there is a real or perceived
+   conflict between an OCI Specification and an OCI Conformance Suite, the OCI
+   Specification has precdence as the basis for conformance.
+
+e. The set of OCI Projects may be modified by the TOB using the process
+   outlined in Section 2 (e) of this Charter, so long as such modifications are
+   in the spirit of this Charter and are in accordance with Section 2 (a) of
+   this Charter.
+
+f. Any TDC member may bring forward a proposal to the TOB for a new or existing
+   project to be included in the set of OCI Projects. Approval of a new OCI
+   Project requires the TOB to decide in favour of the proposal, following the
+   process outlined in Section 6 (n) of this Charter. For the avoidance of
+   doubt, any project (once included in the OCI Projects) will be governed
+   under the rules of this Charter.
+
+g. A project need not be contributed to the OCI in order to be deemed compliant
+   with an OCI specification, nor need it only implement the set of features
+   defined in an OCI Specification. For the avoidance of doubt, a project can
+   be compliant with an OCI Specification even if:
+
+   - i. it differs substantially from any associated OCI Reference
+     Implementation; or
+   - ii. it is not an OCI Project; or
+   - iii. it is licensed differently to any OCI Project, including if it is
+     licensed under a proprietary license; or
+   - iv. it implements features which are not included in the associated OCI
+     Specification.
+
+h. In order to facilitate Section 2 (g) of this Charter,
+
+   - i. OCI Specifications:
+
+     a. must have a strong bias to exclude items from the specification in
+        technical areas undergoing significant innovation and debate, especially
+        if those areas are likely to be the basis of differentiation between
+        competing implementations; and
+
+     b. must establish a clear scope of the specification (hereafter
+        "Specification Scope" within this Section), which once established may
+        only be changed via a TOB decision, following the process outlined in
+        Section 6 (n) of this Charter.
+
+   - ii. OCI Reference Implementations:
+
+     a. may implement functionality outside of the Specification Scope of the
+        associated OCI Specification, but any such features must not compromise
+        compliance with the OCI Specification.
+
+   - iii. OCI Conformance Suites:
+
+     a. must only test for strict conformance with the OCI Specification
+        (meaning that they must not place requirements on any features
+        permitted under Sections (g)(i) and (g)(iv) of this Charter); and
+
+     b. must not emit a conformance test failure for any optional features
+        within an OCI Specification (though they may produce a non-fatal
+        warning if the tested project does not follow a specific recommendation
+        given by the OCI Specification).
+
+i. Both the Project Category and Specification Scope of each OCI Project will
+   be maintained in [the TOB's repository](https://github.com/opencontainers/tob).
+   Changing an OCI Project's category requires a TOB decision in favour of the
+   change, following the process outlined in Section 6 (n) of this Charter,
+   with thirty (30) days’ notice to the OCI Members before taking effect.
 
 ## 3. Membership.
 
@@ -117,8 +179,8 @@ e. The Trademark Board is intended to provide a minimalist governance structure
    responsible for:
 
    - i. creating the OCI trademarks associated with OCI Projects (including the
-     OCI Specification Project), the Open Container Format (OCF) or OCI
-     certified solutions.
+     OCI Specifications), the Open Container Format (OCF), or OCI certified
+     solutions.
    - ii. creating a certification program establishing the requirements for
      achieving the status of an “OCI Certified Solution” and defining the terms
      for using any OCI trademark(s) for an OCI Certified Solution;
@@ -162,10 +224,10 @@ a. The OCI hosts and supports the participation of a technical development
 
 b. The OCI TDC has an established scope of work focused on:
 
-   - i. Creating and maintaining formal specifications (the OCI Specification
-     project) for container image formats and runtime, which will allow a
-     compliant container to be portable across all major, compliant operating
-     systems and platforms without artificial technical barriers;
+   - i. Creating and maintaining formal specifications (the OCI Specifications)
+     for container image formats and runtime, which will allow a compliant
+     container to be portable across all major, compliant operating systems and
+     platforms without artificial technical barriers;
    - ii. Ensuring that OCI Specifications incorporate and align to the OCI
      Values, as defined in Section 8 below;
    - iii. The TDC will look to agree on a standard set of container actions
@@ -193,9 +255,9 @@ b. The OCI TDC has an established scope of work focused on:
    - xiii. Attempting to harmonize the OCI Specifications with other proposed
      standards, including, but not limited to, the appc specification;
    - xiv. Ensuring that the scope of technologies promulgated and proposed as
-     standard elements of OCI Projects (including the OCI Specification) are
-     those that are sufficiently widespread and sufficiently mature and stable
-     so as to warrant establishment in the specification;
+     standard elements of OCI Projects (including OCI Specifications) are those
+     that are sufficiently widespread and sufficiently mature and stable so as
+     to warrant establishment in the specification;
    - xv. Referring to the Technical Oversight Board any issues that deal with
      failure to follow established technical governance, issues that impact
      multiple OCI Projects or specifications, or conflicts that cannot be
@@ -369,15 +431,16 @@ c. If an alternative inbound or outbound license is required for compliance
    contributions on an exception basis. Please email tob@opencontainers.org to
    obtain exception approval.
 
-d. Upon finalization and release of a new version of any OCI specification, OCI
-   will notify all Members in writing using the contact information provided in
-   Exhibit A. As set forth in Section 12 of this Charter, Members may resign
-   from membership in OCI at any time within thirty (30) days following such
-   notification to avoid undertaking further obligations with respect to such
-   specification. All Members on the date thirty (30) days following such
-   notification will, without further action, be subject to the obligations set
-   forth in the Open Web Foundation Final Specification Agreement (OWFa 1.0)
-   (Patent Only) with respect to such specification.
+d. Upon finalization and release of a new version of any OCI Specification, the
+   Executive Director will notify all Members in writing using the contact
+   information provided in Exhibit A. As set forth in Section 12 of this
+   Charter, Members may resign from membership in OCI at any time within thirty
+   (30) days following such notification to avoid undertaking further
+   obligations with respect to such specification. All Members on the date
+   thirty (30) days following such notification will, without further action,
+   be subject to the obligations set forth in the Open Web Foundation Final
+   Specification Agreement (OWFa 1.0) (Patent Only) with respect to such
+   specification.
    http://www.openwebfoundation.org/legal/the-owf-1-0-agreements/owfa-1-0—patent-only
 
 e. On the effective date of their membership, all Members will, without further
