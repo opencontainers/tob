@@ -3,7 +3,8 @@
 | Comment          | Effective Date   |
 | ---------------- |:----------------:|
 | Initial release  | 13 November 2015 |
-| Update           | 18 May 2020       |
+| Update           | 18 May 2020      |
+| Update (simplify)| 4 June 2020      |
 
 ##  1. Mission of the Open Container Initiative (“OCI”).
 
