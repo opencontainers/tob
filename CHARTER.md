@@ -5,6 +5,7 @@
 | 1.0       | 2015-11-13  | 2015-11-13     | *Initial release.*                       |
 | 1.1       | 2020-05-06  | 2020-06-05     | &bull; *(Section 1)* Remove scope table. |
 | 1.2       | 2020-06-04  | 2020-07-04     | &bull; *(Section 1)* Simplify mission.   |
+| 1.2+DRAFT |             |                | &bull; *(Section 6)* Unify TOB voting rules to always require a qualified super-majority for decisions. |
 | 1.2+DRAFT |             |                | &bull; *(Section 12)* Formalise changelog, version numbers, and draft charter versions. |
 
 > **NOTE**: The "notice date" is the date at which OCI Members were given
@@ -42,7 +43,8 @@ b. OCI Projects may be modified by the Technical Oversight Board so long as
    reference implementation for an optional layer item.
 
 c. Any Member can bring forward a new project proposal to the TOB for review.
-   Approval of new OCI Projects requires a two-thirds vote of the TOB.
+   Approval of a new OCI Project requires the TOB to decide in favour of the
+   proposal, following the process outlined in Section 6 (n) of this Charter.
 
 d. A project need not be contributed to the OCI in order to be deemed compliant
    with an associated OCI specification. For avoidance of doubt, a runtime can
@@ -270,10 +272,8 @@ g. The initial TOB shall be established through a nomination and election
    nominated and elected by the OCI Members and serve for a period of two (2)
    years. Each OCI Member may nominate one (1) candidate for election.
 
-h. Initial elections of TOB members shall be run using the Condorcet-IRV method
-   through the Cornell online service (http://civs.cs.cornell.edu/). The TOB
-   may change the methodology or service used in future elections via a
-   two-thirds approval vote of the then-serving TOB.
+h. Elections of TOB members shall be run using the Condorcet-IRV method
+   through the Cornell online service (http://civs.cs.cornell.edu/).
 
 i. The TOB shall elect a TOB Chair. The nominee with the most votes from the
    TOB members shall win the Chair position for a term of one (1) year. In the
@@ -287,9 +287,9 @@ j. The TOB shall meet on an as-needed basis, in a timely manner after issues
 
    - i. the TDC by a simple majority vote of the maintainers when there is an
      issue that needs the resolution to assist the TDC to move forward,
-   - ii. as the TOB determines via vote of at least two-thirds of the TOB
-     members
-   - iii. the TOB Chair determines a meeting is necessary.
+   - ii. the TOB via a decision made using the process outlined in Section 6
+     (n) of this Charter; or
+   - iii. the TOB Chair if they determine a meeting is necessary.
 
 k. TOB meetings may be held in-person or via telephone or electronic
    conferencing.
@@ -306,10 +306,12 @@ m. Quorum for holding meetings shall be established when two-thirds of TOB
    members are present.
 
 n. The intention is for the TOB to operate by consensus. However, if consensus
-   cannot be achieved, the Trademark Board shall vote on a decision. All TOB
-   Votes, either at TOB meetings, via email or electronic voting service, shall
-   pass with a two-thirds vote of votes cast, on a one (1) vote per TOB member
-   basis. An abstain vote equals not voting at all.
+   cannot be achieved, the TOB shall vote on a decision. All TOB votes, either
+   at TOB meetings, via email or electronic voting service, shall pass with a
+   qualified super-majority (a two-thirds vote of the entire TOB membership in
+   favour of the motion in question), on a one (1) vote per TOB member basis.
+   For the avoidance of doubt, an abstain vote (or not voting) equals a vote
+   against the motion in question.
 
 o. Any issues that cannot be resolved by the TOB shall be referred to The Linux
    Foundation Executive Director for mediation, and, if necessary, for
@@ -453,10 +455,10 @@ g. operate under such rules and procedures as may from time to time be approved
 
 ## 12. Amendments and Notice
 
-a. This Charter may be amended by a two thirds vote of the Technical Oversight
-   Board, subject to veto by The Linux Foundation Board of Directors for
-   reasonable cause, with thirty (30) days’ notice to the OCI Members before
-   taking effect.
+a. This Charter may be amended by a TOB decision using the process outlined in
+   Section 6 (n) of this Charter, subject to veto by The Linux Foundation Board
+   of Directors for reasonable cause, with thirty (30) days’ notice to the OCI
+   Members before taking effect.
 
 b. A Member may resign within such thirty-day notice period, or within the
    period provided for in Section 8 (d) of this Charter, to avoid undertaking
