@@ -6,6 +6,7 @@
 | 1.1       | 2020-05-06  | 2020-06-05     | &bull; *(Section 1)* Remove scope table. |
 | 1.2       | 2020-06-04  | 2020-07-04     | &bull; *(Section 1)* Simplify mission.   |
 | 1.2+DRAFT |             |                | &bull; *(Section 2)* Simplify OCI Project definition and clarify scope. |
+| 1.2+DRAFT |             |                | &bull; *(Section 5)* Simplify TDC description and enshrine all maintainers of OCI Projects as TDC Maintainers. |
 | 1.2+DRAFT |             |                | &bull; *(Section 6)* Unify TOB voting rules to always require a qualified super-majority for decisions. |
 | 1.2+DRAFT |             |                | &bull; *(Section 12)* Formalise changelog, version numbers, and draft charter versions. |
 
@@ -213,72 +214,105 @@ h. For avoidance of doubt, OCI membership does not convey any rights to
    influence will come through code and specification contributions to the
    technical projects.
 
-## 5. Technical Developer Community
+## 5. Technical Developer Community (TDC)
 
-a. The OCI hosts and supports the participation of a technical development
-   community (“OCI TDC”) in OCI Projects. The OCI TDC shall be open to any
-   developer, end user or subject matter expert that chooses to participate in
-   the activities of OCI, regardless of whether the participant is employed by
-   an OCI Member company so long as his or her contributions and conduct comply
-   with this Charter.
+a. The OCI shall host and support the participation of a technical development
+   community ("TDC"), encompassing all OCI Projects. The TDC consists of two
+   groups:
 
-b. The OCI TDC has an established scope of work focused on:
+   1. TDC Contributors, membership of which shall be open to any developer, end
+      user or subject matter expert that chooses to participate in the
+      activities of any OCI Project, regardless of whether the participant is
+      employed by an OCI Member company so long as their contributions and
+      conduct comply with this Charter.
+   2. TDC Maintainers (hereafter "Maintainers"), which are the set of
+      maintainers for a given OCI Project (as listed in the top-level
+      MAINTAINERS file of the OCI Project). For the avoidance of doubt, all
+      Maintainers are also necessarily TDC Contributors. In addition:
 
-   - i. Creating and maintaining formal specifications (the OCI Specifications)
-     for container image formats and runtime, which will allow a compliant
-     container to be portable across all major, compliant operating systems and
-     platforms without artificial technical barriers;
-   - ii. Ensuring that OCI Specifications incorporate and align to the OCI
-     Values, as defined in Section 8 below;
-   - iii. The TDC will look to agree on a standard set of container actions
-     (e.g. start, exec, pause) as well as a runtime environment associated with
-     the container runtime;
-   - iv. Creating and maintaining test cases that shall serve as the testing
-     functions for achieving certification as an OCI Certified Solution;
-   - v. Engaging end users for feedback or input on OCI Projects, including,
-     but not limited to, relating to usability;
-   - vi. Ensuring that all OCI Projects follow and adhere to the OCI IP Policy;
-   - vii. Approving releases by OCI Projects;
-   - viii. Creating, maintaining and enforcing governance guidelines for the
-     TDC, approved by the maintainers, and which shall be posted visibly for
-     the TDC. The guidelines shall cover the following:
-   - ix. establishing and defining roles and responsibilities (at a minimum, a
+      - i. an individual may only become a Maintainer of an OCI Project
+        after approval by whatever procedure that OCI Project's Maintainers
+        have established under Section 5 (b)(iii) of this Charter; and
+      - ii. only the Maintainers of an OCI Project may modify the set of
+        Maintainers for that OCI Project. No OCI Member, the TOB, the
+        Maintainers of different OCI Project, nor the Trademark Board may
+        modify the set of Maintainers for a given OCI Project (except in cases
+        where an existing Maintainer's contributions or conduct have not
+        complied with this Charter); and
+      - iii. the collection of Maintainers for all OCI Projects shall be
+        referred to in this Charter as the "Maintainership Coalition".
+
+b. The Maintainers of each OCI Project have a responsibility to create,
+   maintain and enforce governance guidelines for the TDC of their OCI Project,
+   which shall be posted visibly for the TDC. The guidelines shall cover:
+
+   - i. establishing and defining roles and responsibilities (at a minimum, a
      role for committers or maintainers authorized to commit code to the
-     codebase);
-   - x. defining the process or requirements to take on a role in the TDC (e.g.
-     how to become a contributor, or how to become a maintainer);
-   - xi. the process by which participants in the TDC may give up or be revoked
-     of their roles (e.g. how to remove maintainers); the rules for decision
-     making in the TDC; and
-   - xii. any workflow or processes participants are expected to follow in
-     making or merging contributions.
-   - xiii. Attempting to harmonize the OCI Specifications with other proposed
-     standards, including, but not limited to, the appc specification;
-   - xiv. Ensuring that the scope of technologies promulgated and proposed as
-     standard elements of OCI Projects (including OCI Specifications) are those
-     that are sufficiently widespread and sufficiently mature and stable so as
-     to warrant establishment in the specification;
-   - xv. Referring to the Technical Oversight Board any issues that deal with
-     failure to follow established technical governance, issues that impact
-     multiple OCI Projects or specifications, or conflicts that cannot be
-     resolved within the TDC. Issues shall be referred to the TOB according to
-     the requirements in Section 6.; and
-   - xvi. Any issues of non-compliance with the OCI IP Policy shall be
-     immediately referred to The Linux Foundation.
+     codebase); and
+   - ii. defining the process or requirements to take on a role in the TDC
+     (including but not limited to how to become a contributor and how to
+     become a maintainer); and
+   - iii. the process by which participants in the TDC may give up or be
+     revoked of their roles (including but not limited to how to remove
+     maintainers);
+   - iv. the rules for decision making in the TDC; and
+   - v. any workflow or processes participants are expected to follow in
+     making or merging contributions; and
+   - vi. the procedure for approving and publishing releases of the OCI
+     Project.
 
-c. The maintainers and contributors shall set the technical direction of the
-   OCI Projects, with minimal interference by the Technical Oversight Board;
+c. The TDC has an established scope of work for all OCI Projects. For each OCI
+   Project, the TDC has a responsibility to:
 
-d. The TDC will only accept influence through contribution. The primary means
+   - i. ensure that the OCI Project adheres to the general requirements for
+     OCI Projects and the specific requirements for their project's Project
+     Category, as outlined in Section 2 of this Charter; and
+   - ii. ensure that the OCI Project incorporates and aligns with the OCI
+     Values, as defined in Section 7 of this Charter; and
+   - iii. ensure that the OCI Project follows and adheres to the OCI IP Policy,
+     as outlined in Section 8 of this Charter. Any issues of non-compliance
+     with the OCI IP Policy shall be immediately referred to The Linux
+     Foundation; and
+   - iv. create and maintain the OCI Project such that it is portable across
+     all major, compliant operating systems and platforms without artificial
+     technical barriers; and
+   - v. engage end users for feedback or input on the OCI Project, including,
+     but not limited to, relating to usability.
+
+d. In addition to the responsibilities outlined in Section 5 (b) of this
+   Charter, Maintainers of OCI Specifications have a responsibility to:
+
+   - i. attempt to harmonize the OCI Specification with other proposed
+     standards, including, but not limited to, the AppC specification; and
+   - ii. ensure that the scope of technologies promulgated and proposed as
+     elements of the OCI Specification are those that are sufficiently
+     widespread and sufficiently mature and stable so as to warrant
+     establishment in the specification; and
+   - iii. in addition to Section 5 (b)(vi) of this Charter, require a qualified
+     super-majority vote of Maintainers of the OCI Specification in order to
+     approve any release of the OCI Specification.
+
+e. In addition to the responsibilities outlined in Section 5 (b) of this
+   Charter, Maintainers of OCI Conformance Suites have a responsibility to
+   create and maintain test cases that shall serve as the testing functions for
+   achieving certification as an OCI Certified Solution.
+
+f. Notwithstanding Section 2 (i) of this Charter, the TDC Members and
+   Maintainers shall set the technical direction of the OCI Projects, with
+   minimal interference by the TOB. However, any issues that deal with failure
+   to follow established technical governance, issues that impact multiple OCI
+   Projects or specifications, or conflicts that cannot be resolved within the
+   TDC shall be referred to the TOB using the procedure outlined in Section 6
+   of this Charter. Once an issue is referred to the TOB, the TOB is empowered
+   to resolve it (though such resolutions should be made in consultation with
+   the relevant Maintainers or the Maintainership Coalition).
+
+g. The TDC will only accept influence through contribution. The primary means
    for any organization to influence the technical direction of the OCI
-   Projects is via contribution or service as maintainers. OCI Members
-   specifically disclaim any right to influence technical direction either on
-   the basis of their financial contributions or their existence as OCI
-   Members;
-
-e. The maintainers of the TDC shall be those listed in the MAINTAINERS file in
-   the project repository, available at
-   (https://raw.githubusercontent.com/opencontainers/specs/master/MAINTAINERS).
+   Projects is via contribution as TDC Members or service as Maintainers. OCI
+   Members specifically disclaim any right to influence technical direction
+   either on the basis of their financial contributions or their existence as
+   OCI Members.
 
 ## 6. Technical Oversight Board (TOB)
 
