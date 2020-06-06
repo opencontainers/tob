@@ -6,6 +6,7 @@
 | 1.1       | 2020-05-06  | 2020-06-05     | &bull; *(Section 1)* Remove scope table. |
 | 1.2       | 2020-06-04  | 2020-07-04     | &bull; *(Section 1)* Simplify mission.   |
 | 1.2+DRAFT |             |                | &bull; *(Section 2)* Simplify OCI Project definition and clarify scope. |
+| 1.2+DRAFT |             |                | &bull; *(Section 2)* Restrict out-of-specification features in OCI Reference Implementations. |
 | 1.2+DRAFT |             |                | &bull; *(Section 5)* Simplify TDC description and enshrine all maintainers of OCI Projects as TDC Maintainers. |
 | 1.2+DRAFT |             |                | &bull; *(Section 6)* Unify TOB voting rules to always require a qualified super-majority for decisions. |
 | 1.2+DRAFT |             |                | &bull; *(Section 6)* Update TOB procedures, codify election process, and remove outdated sections.  |
@@ -58,13 +59,14 @@ c. The initial OCI Projects shall be:
 
 d. When an OCI Project claims that a feature is provided from an OCI
    Specification, all of its constituent parts shall comply with the OCI
-   Specification. An OCI Project may have additional capabilities that are not
-   reflected in the associated OCI Specification. In this case, it is
-   understood that the OCI Specification (and any associated OCI Conformance
-   Suites) are the standard for judging compliance, not the OCI Project. For
-   the avoidance of doubt, this means that if there is a real or perceived
-   conflict between an OCI Specification and an OCI Conformance Suite, the OCI
-   Specification has precdence as the basis for conformance.
+   Specification. Section 2 (g) of this Charter notwithstanding, an OCI Project
+   may have additional capabilities that are not reflected in the associated
+   OCI Specification. In this case, it is understood that the OCI Specification
+   (and any associated OCI Conformance Suites) are the standard for judging
+   compliance, not the OCI Project. For the avoidance of doubt, this means that
+   if there is a real or perceived conflict between an OCI Specification and an
+   OCI Conformance Suite, the OCI Specification has precdence as the basis for
+   conformance.
 
 e. The set of OCI Projects may be modified by the TOB using the process
    outlined in Section 2 (e) of this Charter, so long as such modifications are
@@ -109,7 +111,12 @@ h. In order to facilitate Section 2 (g) of this Charter,
 
      a. may implement functionality outside of the Specification Scope of the
         associated OCI Specification, but any such features must not compromise
-        compliance with the OCI Specification.
+        compliance with the OCI Specification; and
+
+     b. must not implement functionality within the Specification Scope of the
+        associated OCI Specification, without clearly marking such features as
+        experimental and subject to change in response to any future
+        developments within the OCI Specification.
 
    - iii. OCI Conformance Suites:
 
@@ -127,6 +134,11 @@ i. Both the Project Category and Specification Scope of each OCI Project will
    Changing an OCI Project's category requires a TOB decision in favour of the
    change, following the process outlined in Section 6 (n) of this Charter,
    with thirty (30) days’ notice to the OCI Members before taking effect.
+
+j. Due to historical considerations, the OCI Runtime Reference Implementation
+   ("runc") project is exempt from the requirements of Section 2 (h)(ii)(b) of
+   this Charter. For the avoidance of doubt, no other OCI Reference
+   Implementations are granted such an exemption.
 
 ## 3. Membership.
 
