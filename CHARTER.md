@@ -8,6 +8,7 @@
 | 1.2+DRAFT |             |                | &bull; *(Section 2)* Simplify OCI Project definition and clarify scope. |
 | 1.2+DRAFT |             |                | &bull; *(Section 5)* Simplify TDC description and enshrine all maintainers of OCI Projects as TDC Maintainers. |
 | 1.2+DRAFT |             |                | &bull; *(Section 6)* Unify TOB voting rules to always require a qualified super-majority for decisions. |
+| 1.2+DRAFT |             |                | &bull; *(Section 6)* Update TOB procedures, codify election process, and remove outdated sections.  |
 | 1.2+DRAFT |             |                | &bull; *(Section 12)* Formalise changelog, version numbers, and draft charter versions. |
 
 > **NOTE**: The "notice date" is the date at which OCI Members were given
@@ -316,12 +317,11 @@ g. The TDC will only accept influence through contribution. The primary means
 
 ## 6. Technical Oversight Board (TOB)
 
-a. The TOB is responsible for managing conflicts, violations of procedures or
-   guidelines and any cross-project or high-level issues that cannot be
-   resolved in the TDC for OCI Projects. The TOB shall also be responsible for
-   adding, removing or reorganizing OCI Projects. The TOB shall not dictate or
-   interfere with the day-to-day work of individual OCI Projects or their
-   decisions.
+a. The OCI shall have a Technical Oversight Board ("TOB"), which is responsible
+   for managing conflicts, violations of procedures or guidelines and any
+   cross-project or high-level issues that cannot be resolved by the TDC. The
+   TOB shall not dictate or interfere with the day-to-day work of individual
+   OCI Projects or their decisions.
 
 b. The TOB shall be responsible for adopting any policies related to the scope
    of the TOB and ensuring they are documented publicly.
@@ -337,79 +337,118 @@ c. The TOB shall operate transparently with any discussions and mailing lists
    shall also require a representative from The Linux Foundation to ensure this
    option is not being abused.
 
-d. While the initial TDC shall have one TDC, as the OCI evolves, the TOB may
-   decide to establish a TDC per OCI Project, requiring contributors to earn
-   maintainer status independently within each OCI Project in which they wish
-   to participate.
+d. The TOB shall be composed of nine (9) individuals elected by the
+   Maintainership Coalition for their expertise, contribution to the
+   advancement of container technologies and are considered to be thought
+   leaders in the OCI ecosystem. A TOB member is elected as an individual and
+   not as a representative of his or her employer. TOB members may not
+   designate alternative representatives.
 
-e. The TOB shall be composed of nine (9) individuals elected for their
-   expertise, contribution to the advancement of container technologies and are
-   considered to be thought leaders in the OCI ecosystem. Anyone may be elected
-   to the TOB, regardless of whether the individual is an employee of an OCI
-   Member, so long as they are an OCI TDC participant. A TOB member is elected
-   as an individual and not as a representative of his or her employer. No more
-   than two (2) TOB members may be employed by the same entity or its
-   affiliates. Affiliates shall be defined as entities owning 50% or more of an
-   entity, or owned by or under common ownership with each other. TOB members
-   may not designate alternative representatives.
+e. An individual is incapable of being a member of the TOB if they at any point
+   during their tenure they:
 
-f. TOB members shall be split into two (2) groups, serving for a term of two
-   (2) years on a staggered basis, where one group is elected each year. The
-   initial TOB will have four (4) TOB members who will only serve for a term of
-   one year and five (5) TOB members that serve for a term of two (2) years.
+   - i. are not a member of the TDC; or
+   - ii. become unable to exercise their duties as a TOB member; or
+   - iii. are employed by the same entity or affiliate as two (2) or more other
+     TOB members. Affiliates shall be defined as entities owning 50% or more of
+     an entity, or owned by or under common ownership with each other.
 
-g. The initial TOB shall be established through a nomination and election
-   process. The first group from which four (4) TOB members shall be elected,
-   will be nominated and elected by the current TDC maintainers, initially
-   identified in Section 4(e), and serve for a period of one (1) year. Each TDC
-   maintainer may nominate up to two (2) candidates for election, except that
-   only one (1) nominee may be employed by the TDC maintainer’s own company.
-   The second group from which five (5) TOB members shall be elected, will be
-   nominated and elected by the OCI Members and serve for a period of two (2)
-   years. Each OCI Member may nominate one (1) candidate for election.
+f. TOB members shall be split into two (2) groups counting four (4) and five
+   (5) members each, both serving for a term of two (2) years on a staggered
+   basis, with an election being held each year alternating between which
+   group's seats are up for election.
 
-h. Elections of TOB members shall be run using the Condorcet-IRV method
-   through the Cornell online service (http://civs.cs.cornell.edu/).
+g. The TOB membership shall be chosen through a nomination and election
+   process, organised by the Executive Director. The procedure for nomination
+   and election of seats shall be:
 
-i. The TOB shall elect a TOB Chair. The nominee with the most votes from the
-   TOB members shall win the Chair position for a term of one (1) year. In the
-   event of a tie vote, a random selection process (e.g. coin toss) shall be
-   used to determine the winner. The TOB Chair shall have the responsibility to
-   call meetings of the TOB and set TOB meeting agendas with input from TOB
-   members.
+   1. The Executive Director shall publicly call for nominations no less than
+      four (4) weeks before the expiry of the current group of TOB seats, or
+      immediately if the seats have already become vacant. The nomination
+      period shall last a minimum of two (2) weeks.
+   2. Each member of the Maintainership Coalition may privately nominate up to
+      two (2) candidates, with no more than (1) nominated candidate being
+      employed by the same entity or affiliate as the Maintainer. Affiliate
+      shall be defined as in Section 6 (e)(iii) of this Charter. Information
+      about which member nominated which candidate must remain private.
+   3. The Executive Director shall call for a vote for the TOB seats with all
+      nominated candidates (who are elligible under Section 6 (e) of this
+      Charter) being included as choices on the ballot, using the voting
+      procedure prescribed in Section 6 (j) of this Charter. Each member of the
+      Maintainership Coalition is entitled to only one (1) vote, regardless of
+      whether the individual is a Maintainer of a single or multiple OCI
+      Projects. The voting period shall last a minimum of two (2) weeks.
+   4. Upon the conclusion of the election, the members-elect shall become TOB
+      members upon expiry (or vacancy) of the TOB seats.
 
-j. The TOB shall meet on an as-needed basis, in a timely manner after issues
-   are directed to the TOB from:
+h. Notwithstanding Section 6 (f) through (g) of this Charter, the initial TOB
+   shall have its four (4) member group only serve a term of one (1) year and
+   will be nominated and elected by OCI Members, with each OCI Member being
+   permitted to nominate one (1) candidate for election and being given one (1)
+   vote. For the avoidance of doubt, this procedure only applies to the initial
+   TOB, and the five (5) member group of the initial TOB shall serve a term of
+   two (2) years and be nominated and elected through the procedure defined in
+   Section 6 (g) of this Charter.
 
-   - i. the TDC by a simple majority vote of the maintainers when there is an
-     issue that needs the resolution to assist the TDC to move forward,
-   - ii. the TOB via a decision made using the process outlined in Section 6
+i. After each election the TOB shall, before the dispatch of any other
+   business, elect one (1) TOB member (using the procedure described in
+   Section 6 (g) of this Charter) to be the TOB Chair, who shall hold that
+   position for a term of one (1) year. In the event of a tie vote, a random
+   selection process (such as a fair coin toss) shall be used to determine the
+   winner. The TOB Chair shall have the responsibility to call meetings of the
+   TOB and set TOB meeting agendas with input from TOB members.
+
+j. Elections of TOB members and the TOB chair shall be run by the Executive
+   Director, using the Condorcet-IRV method through the [Condorcet Internet
+   Voting Service](https://civs.cs.cornell.edu/). Upon the completion of any
+   vote using this procedure, the Executive Director must announce the results
+   of the vote publicly.
+
+k. The TOB shall meet on an as-needed basis to discuss any agenda set by the
+   TOB Chair, who may set such an agenda at any time if they determine a
+   meeting is necessary. Members of the TDC outside of the TOB may attend and
+   participate in TOB meetings, but cannot vote on motions nor raise issues
+   which are not part of the meeting agenda.
+
+l. In the case of any issues being directed to the TOB, the TOB Chair must call
+   a meeting in a timely manner with an agenda including the issues directed to
+   the TOB, so that the TOB may resolve them. An issue may be directed to the
+   TOB from:
+
+   - i. the Maintainers of one (1) or more OCI Projects, by a qualified
+     majority vote of the set of Maintainers of the given OCI Projects, for an
+     issue involving only the given OCI Projects; or
+   - ii. the Maintainership Coalition, by a qualified majority vote; or
+   - iii. the TOB via a decision made using the process outlined in Section 6
      (n) of this Charter; or
-   - iii. the TOB Chair if they determine a meeting is necessary.
+   - iv. the TOB Chair if they determine a meeting is necessary.
 
-k. TOB meetings may be held in-person or via telephone or electronic
-   conferencing.
-
-l. Issues should be referred to the TOB sufficiently in advance of a meeting to
+m. Issues should be referred to the TOB sufficiently in advance of a meeting to
    provide an appropriate time for TOB members to evaluate the issues, and the
    positions of the TDC, the positions of users, as well as sufficient time to
    explore compromise solutions. It is expected an appropriate review should
-   require at least a two-week review period, though it is recognized some
-   timecritical circumstances may call for a shorter review (e.g. security
+   require at least a two (2) week review period, though it is recognized some
+   time-critical circumstances may call for a shorter review (such as security
    issues).
 
-m. Quorum for holding meetings shall be established when two-thirds of TOB
-   members are present.
+n. TOB meetings may be held in-person or via telephone or electronic
+   conferencing. Quorum for holding meetings shall be established when
+   two-thirds of TOB members are present. If the TOB is unable to form a
+   quorum, the TOB Chair must call subsequent meetings in a timely manner with
+   the same agenda until a quorum is formed.
 
-n. The intention is for the TOB to operate by consensus. However, if consensus
+o. The intention is for the TOB to operate by consensus. However, if consensus
    cannot be achieved, the TOB shall vote on a decision. All TOB votes, either
    at TOB meetings, via email or electronic voting service, shall pass with a
    qualified super-majority (a two-thirds vote of the entire TOB membership in
    favour of the motion in question), on a one (1) vote per TOB member basis.
    For the avoidance of doubt, an abstain vote (or not voting) equals a vote
-   against the motion in question.
+   against the motion in question. If a vote is conducted outside of a TOB
+   meeting, the vote will be organised by the Executive Director and must have
+   a clearly established deadline at which point the votes will be tallied and
+   announced by the Executive Director.
 
-o. Any issues that cannot be resolved by the TOB shall be referred to The Linux
+p. Any issues that cannot be resolved by the TOB shall be referred to the Linux
    Foundation Executive Director for mediation, and, if necessary, for
    resolution by The Linux Foundation Board of Directors.
 
