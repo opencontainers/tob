@@ -10,6 +10,7 @@
 | 1.2+DRAFT |             |                | &bull; *(Section 5)* Simplify TDC description and enshrine all maintainers of OCI Projects as TDC Maintainers. |
 | 1.2+DRAFT |             |                | &bull; *(Section 6)* Unify TOB voting rules to always require a qualified super-majority for decisions. |
 | 1.2+DRAFT |             |                | &bull; *(Section 6)* Update TOB procedures, codify election process, and remove outdated sections.  |
+| 1.2+DRAFT |             |                | &bull; *(Section 6)* Add No-Confidence Motions to allow the Maintainers Coalition to dissolve the TOB.  |
 | 1.2+DRAFT |             |                | &bull; *(Section 12)* Formalise changelog, version numbers, and draft charter versions. |
 
 > **NOTE**: The "notice date" is the date at which OCI Members were given
@@ -463,6 +464,29 @@ o. The intention is for the TOB to operate by consensus. However, if consensus
 p. Any issues that cannot be resolved by the TOB shall be referred to the Linux
    Foundation Executive Director for mediation, and, if necessary, for
    resolution by The Linux Foundation Board of Directors.
+
+q. If the Maintainership Coalition feels that the TOB does not represent their
+   interests, they may raise a No-Confidence Motion by a qualified majority
+   vote. Votes for No-Confidence Motions must be announced publicly and will be
+   administered by the Executive Director using the procedure in Section 6 (j)
+   of this Charter. If a No-Confidence motion is passed, then the entire TOB is
+   immediately dissolved and an election is held to replace all of the TOB
+   seats.
+
+r. The procedure for an election under Section 6 (q) of this Charter is
+   identical to that of Section 6 (g) of this Charter, except that the four (4)
+   member group of the TOB will only hold their seat for one (1) year in order
+   to maintain the staggered terms outlined in Section 6 (f) of this Charter.
+   The four (4) member group will be chosen as being the least-favoured choices
+   in the election who cleared the threshold for election. In the case of any
+   ambiguity (such as a tie for 5th place), a random selection process (such as
+   a fair coin toss) shall be used to select which member-elect will be part of
+   the four (4) member group.
+
+s. In order to avoid abuse of No-Confidence Motions, they cannot be announced
+   within two (2) weeks before or after a TOB election nor within ninety (90)
+   days of a previous No-Confidence Motion (even if the previous motion was not
+   successfully passed).
 
 ## 7. OCI Values.
 
