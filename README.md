@@ -11,7 +11,7 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 * **Jon Johnson [Google]** (term date: 1/29/2020 - 1/29/2022)
 * **Samuel Karp [AWS]** (term date: 1/29/2020 - 1/29/2022)
 * **Steve Lasker [Microsoft]** (term date: 1/29/2020 - 1/29/2022)
-* **Derek McGowan [Docker]** (term date: 1/29/2019 - 1/29/2021)
+* **Derek McGowan [Apple]** (term date: 1/29/2019 - 1/29/2021)
 * **Aleksa Sarai [SUSE]** (term date: 1/29/2019 - 1/29/2021)
 
 ## Mailing List
