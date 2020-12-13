@@ -397,7 +397,7 @@ b. All Members shall encourage open participation from any organization able to
 ## 10. Budget
 
 a. The Trademark Board shall approve an annual budget and never commit to spend
-   in excess of OCI membership and other OCI directed funds raised byThe Linux
+   in excess of OCI membership and other OCI directed funds raised by The Linux
    Foundation from all sources, including OCI membership fees. The budget and
    all OCI activities shall be consistent with the non-profit mission of The
    Linux Foundation.
