@@ -4,15 +4,15 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 ## Members
 
-* **Vincent Batts [Kinvolk]** (term date: 1/29/2019 - 1/29/2021)
-* **Michael Crosby [Apple]** (term date: 1/29/2019 - 1/29/2021)
+* **Tycho Andersen [Cisco]** (term date: 1/29/2021 - 1/29/2023)
+* **Vincent Batts [Kinvolk]** (term date: 1/29/2021 - 1/29/2023)
 * **Phil Estes [AWS] (TOB Chair)** (term date: 1/29/2020 - 1/29/2022)
 * **Wei Fu [Alibaba]** (term date: 1/29/2020 - 1/29/2022)
 * **Jon Johnson [Google]** (term date: 1/29/2020 - 1/29/2022)
 * **Samuel Karp [AWS]** (term date: 1/29/2020 - 1/29/2022)
 * **Steve Lasker [Microsoft]** (term date: 1/29/2020 - 1/29/2022)
-* **Derek McGowan [Docker]** (term date: 1/29/2019 - 1/29/2021)
-* **Aleksa Sarai [SUSE]** (term date: 1/29/2019 - 1/29/2021)
+* **Derek McGowan [Apple]** (term date: 1/29/2021 - 1/29/2023)
+* **Aleksa Sarai [SUSE]** (term date: 1/29/2021 - 1/29/2023)
 
 ## Mailing List
 
