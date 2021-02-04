@@ -11,6 +11,7 @@
 | 1.2+DRAFT |             |                | &bull; *(Section 6)* Unify TOB voting rules to always require a qualified super-majority for decisions. |
 | 1.2+DRAFT |             |                | &bull; *(Section 6)* Update TOB procedures, codify election process, and remove outdated sections.  |
 | 1.2+DRAFT |             |                | &bull; *(Section 6)* Add No-Confidence Motions to allow the Maintainers Coalition to dissolve the TOB.  |
+| 1.2+DRAFT |             |                | &bull; *(Section 6)* Describe the procedure for by-elections.  |
 | 1.2+DRAFT |             |                | &bull; *(Section 12)* Formalise changelog, version numbers, and draft charter versions. |
 
 > **NOTE**: The "notice date" is the date at which OCI Members were given
@@ -77,7 +78,7 @@ e. The set of OCI Projects may be modified by the TOB using the process
 f. Any TDC member may bring forward a proposal to the TOB for a new or existing
    project to be included in the set of OCI Projects. Approval of a new OCI
    Project requires the TOB to decide in favour of the proposal, following the
-   process outlined in Section 6 (n) of this Charter. For the avoidance of
+   process outlined in Section 6 (o) of this Charter. For the avoidance of
    doubt, any project (once included in the OCI Projects) will be governed
    under the rules of this Charter.
 
@@ -106,7 +107,7 @@ h. In order to facilitate Section 2 (g) of this Charter,
      b. must establish a clear scope of the specification (hereafter
         "Specification Scope" within this Section), which once established may
         only be changed via a TOB decision, following the process outlined in
-        Section 6 (n) of this Charter.
+        Section 6 (o) of this Charter.
 
    - ii. OCI Reference Implementations:
 
@@ -133,7 +134,7 @@ h. In order to facilitate Section 2 (g) of this Charter,
 i. Both the Project Category and Specification Scope of each OCI Project will
    be maintained in [the TOB's repository](https://github.com/opencontainers/tob).
    Changing an OCI Project's category requires a TOB decision in favour of the
-   change, following the process outlined in Section 6 (n) of this Charter,
+   change, following the process outlined in Section 6 (o) of this Charter,
    with thirty (30) days’ notice to the OCI Members before taking effect.
 
 j. Due to historical considerations, the OCI Runtime Reference Implementation
@@ -417,13 +418,24 @@ j. Elections of TOB members and the TOB chair shall be run by the Executive
    vote using this procedure, the Executive Director must announce the results
    of the vote publicly.
 
-k. The TOB shall meet on an as-needed basis to discuss any agenda set by the
+k. If at any point a TOB member becomes incapable of holding their seat (as
+   defined in Section 6 (e) of this charter), their seat shall become vacant
+   and a by-election shall be called using the procedure described in Section 6
+   (g) of this Charter to fill the vacant seat. The newly elected TOB member
+   shall serve the outgoing TOB member's remaining term. For the avoidance of
+   doubt, if more than one TOB member becomes incapable of holding their seat
+   (such as a merger resulting in more than two TOB members being employed by
+   the same entity or affiliate as described in Section 6 (e)(iii) of this
+   Charter), all incapable TOB members' seats will become vacant simultaneously
+   and only one by-election will be held to fill all vacant seats.
+
+l. The TOB shall meet on an as-needed basis to discuss any agenda set by the
    TOB Chair, who may set such an agenda at any time if they determine a
    meeting is necessary. Members of the TDC outside of the TOB may attend and
    participate in TOB meetings, but cannot vote on motions nor raise issues
    which are not part of the meeting agenda.
 
-l. In the case of any issues being directed to the TOB, the TOB Chair must call
+m. In the case of any issues being directed to the TOB, the TOB Chair must call
    a meeting in a timely manner with an agenda including the issues directed to
    the TOB, so that the TOB may resolve them. An issue may be directed to the
    TOB from:
@@ -433,10 +445,10 @@ l. In the case of any issues being directed to the TOB, the TOB Chair must call
      issue involving only the given OCI Projects; or
    - ii. the Maintainership Coalition, by a qualified majority vote; or
    - iii. the TOB via a decision made using the process outlined in Section 6
-     (n) of this Charter; or
+     (o) of this Charter; or
    - iv. the TOB Chair if they determine a meeting is necessary.
 
-m. Issues should be referred to the TOB sufficiently in advance of a meeting to
+n. Issues should be referred to the TOB sufficiently in advance of a meeting to
    provide an appropriate time for TOB members to evaluate the issues, and the
    positions of the TDC, the positions of users, as well as sufficient time to
    explore compromise solutions. It is expected an appropriate review should
@@ -444,13 +456,13 @@ m. Issues should be referred to the TOB sufficiently in advance of a meeting to
    time-critical circumstances may call for a shorter review (such as security
    issues).
 
-n. TOB meetings may be held in-person or via telephone or electronic
+o. TOB meetings may be held in-person or via telephone or electronic
    conferencing. Quorum for holding meetings shall be established when
    two-thirds of TOB members are present. If the TOB is unable to form a
    quorum, the TOB Chair must call subsequent meetings in a timely manner with
    the same agenda until a quorum is formed.
 
-o. The intention is for the TOB to operate by consensus. However, if consensus
+p. The intention is for the TOB to operate by consensus. However, if consensus
    cannot be achieved, the TOB shall vote on a decision. All TOB votes, either
    at TOB meetings, via email or electronic voting service, shall pass with a
    qualified super-majority (a two-thirds vote of the entire TOB membership in
@@ -459,13 +471,15 @@ o. The intention is for the TOB to operate by consensus. However, if consensus
    against the motion in question. If a vote is conducted outside of a TOB
    meeting, the vote will be organised by the Executive Director and must have
    a clearly established deadline at which point the votes will be tallied and
-   announced by the Executive Director.
+   announced by the Executive Director. If any TOB seats have become vacant (as
+   outlined in Section 6 (k) of this Charter), they are not counted for the
+   purposes of the qualified super-majority.
 
-p. Any issues that cannot be resolved by the TOB shall be referred to the Linux
+q. Any issues that cannot be resolved by the TOB shall be referred to the Linux
    Foundation Executive Director for mediation, and, if necessary, for
    resolution by The Linux Foundation Board of Directors.
 
-q. If the Maintainership Coalition feels that the TOB does not represent their
+r. If the Maintainership Coalition feels that the TOB does not represent their
    interests, they may raise a No-Confidence Motion by a qualified majority
    vote. Votes for No-Confidence Motions must be announced publicly and will be
    administered by the Executive Director using the procedure in Section 6 (j)
@@ -473,7 +487,7 @@ q. If the Maintainership Coalition feels that the TOB does not represent their
    immediately dissolved and an election is held to replace all of the TOB
    seats.
 
-r. The procedure for an election under Section 6 (q) of this Charter is
+s. The procedure for an election under Section 6 (q) of this Charter is
    identical to that of Section 6 (g) of this Charter, except that the four (4)
    member group of the TOB will only hold their seat for one (1) year in order
    to maintain the staggered terms outlined in Section 6 (f) of this Charter.
@@ -483,7 +497,7 @@ r. The procedure for an election under Section 6 (q) of this Charter is
    a fair coin toss) shall be used to select which member-elect will be part of
    the four (4) member group.
 
-s. In order to avoid abuse of No-Confidence Motions, they cannot be announced
+t. In order to avoid abuse of No-Confidence Motions, they cannot be announced
    within two (2) weeks before or after a TOB election nor within ninety (90)
    days of a previous No-Confidence Motion (even if the previous motion was not
    successfully passed).
@@ -628,7 +642,7 @@ g. operate under such rules and procedures as may from time to time be approved
 ## 12. Amendments and Notice
 
 a. This Charter may be amended by a TOB decision using the process outlined in
-   Section 6 (n) of this Charter, subject to veto by The Linux Foundation Board
+   Section 6 (o) of this Charter, subject to veto by The Linux Foundation Board
    of Directors for reasonable cause, with thirty (30) days’ notice to the OCI
    Members before taking effect.
 
