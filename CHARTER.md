@@ -394,6 +394,12 @@ g. The TOB membership shall be chosen through a nomination and election
       Projects. The voting period shall last a minimum of two (2) weeks.
    4. Upon the conclusion of the election, the members-elect shall become TOB
       members upon expiry (or vacancy) of the TOB seats.
+   5. If, after the election but before the TOB members-elect become TOB
+      members, it is found that any TOB members-elect are incapable of being
+      TOB members (as defined in Section 6 (e) of this Charter), the incapable
+      members-elect will not become TOB members and upon expiry (or vacancy) of
+      the TOB seats a by-election (as described in Section 6 (k) of this
+      Charter) shall be held to fill the vacant seats.
 
 h. Notwithstanding Section 6 (f) through (g) of this Charter, the initial TOB
    shall have its four (4) member group only serve a term of one (1) year and
