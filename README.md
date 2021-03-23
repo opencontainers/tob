@@ -30,7 +30,8 @@ https://groups.google.com/a/opencontainers.org/forum/#!forum/tob (tob@opencontai
 
 ## Voting
 
-In various situations ([2.c, 6.h, 6.j, 6.n](https://www.opencontainers.org/about/governance)) the TOB shall hold a vote. These votes can happen on the phone, email, or via a voting service, when appropriate.
+
+In various situations ([2.c, 6.h, 6.j, 6.n](https://github.com/opencontainers/tob/blob/master/CHARTER.md)) the TOB shall hold a vote. These votes can happen on the phone, email, or via a voting service, when appropriate.
 
 TOB members can either respond "agree, yes, +1", "disagree, no, -1", or "abstain". A vote passes with two-thirds vote of votes cast. An abstain vote equals not voting at all.
 
