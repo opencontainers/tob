@@ -1,10 +1,11 @@
-# Open Container Initiative Charter v1.2
+# Open Container Initiative Charter v1.3
 
-| Comment          | Effective Date   |
-| ---------------- |:----------------:|
-| Initial release  | 13 November 2015 |
-| Update           | 18 May 2020      |
-| Update (simplify)| 4 June 2020      |
+| Comment           | Effective Date   |
+| ----------------- |:----------------:|
+| Initial release   | 13 November 2015 |
+| Update            | 18 May 2020      |
+| Update (simplify) | 4 June 2020      |
+| Add Working Groups| **TBD**          |
 
 ##  1. Mission of the Open Container Initiative (“OCI”).
 
@@ -308,6 +309,47 @@ n. The intention is for the TOB to operate by consensus. However, if consensus
 o. Any issues that cannot be resolved by the TOB shall be referred to The Linux
    Foundation Executive Director for mediation, and, if necessary, for
    resolution by The Linux Foundation Board of Directors.
+
+p. OCI Working Groups.
+
+   - i. The OCI may establish one or more working groups (each, an “OCI Working
+     Group”) to experiment, validate, and define new OCI Specifications or
+     major revisions to existing OCI Specifications. Each OCI Working Group
+     shall have a defined scope of the OCI Working Group's intended activities
+     and goals. The end result of the OCI Working Group's work product shall be
+     either a new OCI Specification, an update to an existing OCI
+     Specification, or a new OCI Project.
+
+   - ii. Any participant in the OCI technical community may propose a working
+     group to the TOB for consideration. The TOB shall maintain a public list
+     of the information required to be included in a working group proposal.
+
+   - iii. Approval of a new OCI Working Group requires a two-thirds vote of the
+     TOB. The TOB will maintain a public list of all approved OCI Working
+     Groups.
+
+   - iv. Once an OCI Working Group determines that it has achieved its
+     objectives, the OCI Working Group leaders shall present to the TOB the
+     draft specification or project, along with such other information as the
+     TOB may require for evaluation of the draft specification or project. The
+     TOB shall maintain a public list of such required information.
+
+   - v. Approval of the draft specification (to be released as an OCI
+     Specification) or draft project (to become an OCI Project) shall require a
+     two-thirds vote of the TOB. For a draft specification, prior to such
+     approval the OCI Working Group may not describe it as a released OCI
+     Specification, and must designate it with a `-draft.#` suffix.
+
+   - vi. Following TOB approval of a draft specification to be released as an
+     OCI Specification, the OCI Specification's maintainers may determine the
+     process for making subsequent releases, provided that (1) such process is
+     subject to TOB review, approval and modification, and (2) following any
+     release of a new version of an OCI Specification, OCI shall notify all
+     Members as set forth in Section 8(d) of this Charter.
+
+   - vii. The TOB may, by a two-thirds vote, elect to disband an OCI Working
+     Group in its discretion, including if the TOB determines that the OCI
+     Working Group has not made meaningful progress or has become inactive.
 
 ## 7. OCI Values.
 
