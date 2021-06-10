@@ -5,7 +5,7 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 ## Members
 
 * **Tycho Andersen [Cisco]** (term date: 1/29/2021 - 1/29/2023)
-* **Vincent Batts [Kinvolk]** (term date: 1/29/2021 - 1/29/2023)
+* **Vincent Batts [Microsoft]** (term date: 1/29/2021 - 1/29/2023)
 * **Phil Estes [AWS] (TOB Chair)** (term date: 1/29/2020 - 1/29/2022)
 * **Wei Fu [Alibaba]** (term date: 1/29/2020 - 1/29/2022)
 * **Jon Johnson [Google]** (term date: 1/29/2020 - 1/29/2022)
