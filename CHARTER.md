@@ -317,8 +317,13 @@ p. OCI Working Groups.
      major revisions to existing OCI Specifications. Each OCI Working Group
      shall have a defined scope of the OCI Working Group's intended activities
      and goals. The end result of the OCI Working Group's work product shall be
-     either a new OCI Specification, an update to an existing OCI
-     Specification, or a new OCI Project.
+     either:
+       - an update to an existing OCI Specification (for example, adding
+         support for a new set of features);
+       - a new OCI Specification (for example, creating an OCI Specification
+         for a new topical area); or
+       - a new OCI Project other than a Specification (for example, creating a
+         reference implementation of an OCI Specification).
 
    - ii. Any participant in the OCI technical community may propose a working
      group to the TOB for consideration. The TOB shall maintain a public list
@@ -330,14 +335,14 @@ p. OCI Working Groups.
 
    - iv. Once an OCI Working Group determines that it has achieved its
      objectives, the OCI Working Group leaders shall present to the TOB the
-     draft specification or project, along with such other information as the
-     TOB may require for evaluation of the draft specification or project. The
-     TOB shall maintain a public list of such required information.
+     draft specification or other project, along with such other information as
+     the TOB may require for evaluation of the draft specification or other
+     project. The TOB shall maintain a public list of such required information.
 
    - v. Approval of the draft specification (to be released as an OCI
-     Specification) or draft project (to become an OCI Project) shall require a
-     two-thirds vote of the TOB. For a draft specification, prior to such
-     approval the OCI Working Group may not describe it as a released OCI
+     Specification) or other draft project (to become an OCI Project) shall
+     require a two-thirds vote of the TOB. For a draft specification, prior to
+     such approval the OCI Working Group may not describe it as a released OCI
      Specification, and must designate it with a `-draft.#` suffix.
 
    - vi. Following TOB approval of a draft specification to be released as an
@@ -347,9 +352,13 @@ p. OCI Working Groups.
      release of a new version of an OCI Specification, OCI shall notify all
      Members as set forth in Section 8(d) of this Charter.
 
-   - vii. The TOB may, by a two-thirds vote, elect to disband an OCI Working
-     Group in its discretion, including if the TOB determines that the OCI
-     Working Group has not made meaningful progress or has become inactive.
+   - vii. The TOB may, by a two-thirds vote, approve requests from the owners
+     of an OCI Working Group to (a) amend the OCI Working Group's governance
+     document, or (b) adjust the composition of the owners or maintainers of
+     that OCI Working Group. The TOB may also, by a two-thirds vote, elect to
+     disband an OCI Working Group in its discretion, including if the TOB
+     determines that the OCI Working Group has not made meaningful progress or
+     has become inactive.
 
 ## 7. OCI Values.
 
