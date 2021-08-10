@@ -5,7 +5,7 @@
 | Initial release   | 13 November 2015 |
 | Update            | 18 May 2020      |
 | Update (simplify) | 4 June 2020      |
-| Add Working Groups| **TBD**          |
+| Add Working Groups| 10 Aug 2021      |
 
 ##  1. Mission of the Open Container Initiative (“OCI”).
 
