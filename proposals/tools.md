@@ -17,7 +17,7 @@ On Wednesday, August 24th, 2016, the OCI Developer Community (TDC) met and recom
 ## Proposal
 With repositories under the http://github.com/OpenContainers organization:
 * Rename the OCITools repository as runtime-tools
-* Create a new repository named image-tools and populate this with the files from: https://github.com/opencontainers/image-spec/tree/master/cmd/oci-image-tool
+* Create a new repository named image-tools and populate this with the files from: https://github.com/opencontainers/image-tools/tree/master/cmd/oci-image-tool
 
 ### Project Descriptions
 Below are brief draft project descriptions intended to serve as an initial abstract for each project:
@@ -80,9 +80,5 @@ A: Contribution count is not a great metric for the value of a contributor's con
 **Q: Can additional code/tools be added to the proposed tools repos beyond what is listed above?**
 
 A: Yes.  If there is other code or functionality that a contributor believes would be relevant for runtime-related or image-related tools, it would be great if it is contributed.
-
-**Q: Does this change the OCI Charter or Scope Table?**
-
-A: No.  Nothing in this proposal is intended to amend the OCI Charter (https://www.opencontainers.org/about/governance) or OCI Scope Table (https://www.opencontainers.org/about/oci-scope-table).
 
 [code-of-conduct]: https://github.com/opencontainers/org/blob/master/CODE_OF_CONDUCT.md
