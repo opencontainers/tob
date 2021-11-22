@@ -29,20 +29,20 @@ As cloud native development continues to grow, there is increased interest in ev
 
 * Identified out of scope items will be listed here as WG progresses
 
-
 ## Intended work product
 
 * Referrers API specification that provides the ability to discover references to existing container images. These include listing signatures, SBoMs, security scan results that refer to the digest of a manifest. The referrers API specification will sit within or along side the Distribution specification.
 * Identify, and document the pros and cons for versioning the existing manifests, compared with creating a new manifest to support reference types.
 
 ## Proposed Owners
+
 * Lachlan Evenson (@lachie83)
 * Justin Cormack (@justincormack)
 * Michael Brown (@michaelb990)
 * Derek McGowan (@dmcgowan)
 * Jon Johnson (@jonjohnsonjr)
 
-## Sponsors
+## Stakeholders
 
 * Microsoft
 * AWS
