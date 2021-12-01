@@ -2,7 +2,7 @@
 
 Proposal created from [OCI WG template](https://github.com/opencontainers/tob/blob/master/WG-TEMPLATE.md).
 
-Proposal copied from [Proposal: Working Group for Reference Types #96](https://github.com/opencontainers/tob/issues/96)
+Proposal copied from [Proposal: Working Group for Reference Types #96](https://github.com/opencontainers/tob/issues/96).
 
 ## Reference Types OCI Working Group - Governance Charter
 
@@ -12,22 +12,24 @@ The WG operates as an OCI Working Group under the [Open Container Initiative (OC
 
 ## Purpose
 
-As cloud native development continues to grow, there is increased interest in evolving registries to natively store, discover, and pull a graph of content associated with specific container images in a registry. Use cases for said associated artifacts include but are not limited to Software Bill of Materials (SBoM), security scan results, and signing. Having a native way to store and discover artifacts associated with other artifacts enables end-users to answer the question of: “What SBOMs or signatures are associated with this container image?”
+As cloud native development continues to grow, there is increased interest in evolving registries to natively store, discover, and pull a graph of content associated with specific container images in a registry.
+Use cases for said associated artifacts include but are not limited to Software Bill of Materials (SBoM), security scan results, and signing.
+Having a native way to store and discover artifacts associated with other artifacts enables end-users to answer the question of: “What SBOMs or signatures are associated with this container image?”
 
 ## Scope
 
-* Define and deliver the capability to store, discover, and pull a graph of artifacts associated with a specific artifacts to OCI distribution compliant registries. These set of capabilities has been commonly known as "reference types" or "references".
+* Define and deliver the capability to push, discover, and pull a graph of artifacts within OCI distribution compliant registries. These set of capabilities have been commonly known as "reference types" or "references".
   * Define supported use cases
-  * Document impact to existing user-facing tools and registries
-  * Define the method for creating, distributing, and discovering referenced objects
-  * Document user expectations for promoting an artifact between registries with its references
+  * Document impact to existing implementations
+  * Define the method for creating, distributing, discovering, and traversing a graph of referenced objects
+  * Document user expectations for promoting an artifact and its references between registries
   * Document onboarding process for registries and user-facing tools to adopt reference types
-  * Defined expectations for artifact reference lifecycle management
+  * Define expectations for artifact reference lifecycle management
   * Deliver a reference implementation of the reference types proposal
 
 ## Out of Scope
 
-* Identified out of scope items will be listed here as WG progresses
+* Identified out of scope items will be listed here as WG progresses.
 
 ## Intended work product
 
