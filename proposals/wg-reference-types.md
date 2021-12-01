@@ -35,6 +35,7 @@ Having a native way to store and discover artifacts associated with other artifa
 
 * Referrers API specification that provides the ability to discover references to existing container images. These include listing signatures, SBoMs, security scan results that refer to the digest of a manifest. The referrers API specification will sit within or along side the Distribution specification.
 * Identify, and document the pros and cons for versioning the existing manifests, compared with creating a new manifest to support reference types.
+* Proposal to extend existing manifests or create a new manifest to support reference types.
 
 ## Proposed Owners
 
