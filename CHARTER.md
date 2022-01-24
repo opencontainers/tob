@@ -421,7 +421,7 @@ d. Upon finalization and release of a new version of any OCI specification, OCI
    notification will, without further action, be subject to the obligations set
    forth in the Open Web Foundation Final Specification Agreement (OWFa 1.0)
    (Patent Only) with respect to such specification.
-   http://www.openwebfoundation.org/legal/the-owf-1-0-agreements/owfa-1-0—patent-only
+   https://www.openwebfoundation.org/the-agreements/the-owf-1-0-agreements-granted-claims/owfa-1-0-patent-only
 
 e. On the effective date of their membership, all Members will, without further
    action, be subject to the obligations set forth in the OWFa 1.0 (Patent
