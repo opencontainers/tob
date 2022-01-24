@@ -6,5 +6,7 @@ We would like to acknowledge previous OCI TOB members and their huge contributio
 * Stephen Day [Cruise] (term date: 1/29/2018 - 1/29/2020)
 * Mrunal Patel [Red Hat] (term date: 1/29/2018 - 1/29/2020)
 * Michael Crosby [Apple] (term date: 1/29/2017 - 1/29/2021)
+* Wei Fu [Alibaba] (term date: 1/29/2020 - 1/29/2022)
+* Steve Lasker [Microsoft] (term date: 1/29/2020 - 1/29/2022)
 
 We thank these members for their service to the CNCF community.
