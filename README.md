@@ -6,11 +6,11 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 * **Tycho Andersen [Cisco]** (term date: 1/29/2021 - 1/29/2023)
 * **Vincent Batts [Microsoft]** (term date: 1/29/2021 - 1/29/2023)
-* **Phil Estes [AWS] (TOB Chair)** (term date: 1/29/2020 - 1/29/2022)
-* **Wei Fu [Alibaba]** (term date: 1/29/2020 - 1/29/2022)
-* **Jon Johnson [Google]** (term date: 1/29/2020 - 1/29/2022)
-* **Samuel Karp [AWS]** (term date: 1/29/2020 - 1/29/2022)
-* **Steve Lasker [Microsoft]** (term date: 1/29/2020 - 1/29/2022)
+* **Josh Dolitsky [Chainguard]** (term date: 1/29/2022 - 1/29/2024)
+* **Phil Estes [AWS]** (term date: 1/29/2022 - 1/29/2024)
+* **Jon Johnson [Google]** (term date: 1/29/2022 - 1/29/2024)
+* **Samuel Karp [AWS]** (term date: 1/29/2022 - 1/29/2024)
+* **Nisha Kumar [VMWare]** (term date: 1/29/2022 - 1/29/2024)
 * **Derek McGowan [Apple]** (term date: 1/29/2021 - 1/29/2023)
 * **Aleksa Sarai [SUSE]** (term date: 1/29/2021 - 1/29/2023)
 
