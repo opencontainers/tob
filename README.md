@@ -10,7 +10,7 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 * **Phil Estes [AWS]** (term date: 1/29/2022 - 1/29/2024)
 * **Jon Johnson [Google]** (term date: 1/29/2022 - 1/29/2024)
 * **Samuel Karp [AWS]** (term date: 1/29/2022 - 1/29/2024) [Chair] 
-* **Nisha Kumar [VMWare]** (term date: 1/29/2022 - 1/29/2024)
+* **Nisha Kumar [Oracle]** (term date: 1/29/2022 - 1/29/2024)
 * **Derek McGowan [Apple]** (term date: 1/29/2021 - 1/29/2023)
 * **Aleksa Sarai [SUSE]** (term date: 1/29/2021 - 1/29/2023)
 
