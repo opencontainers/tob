@@ -14,9 +14,15 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 * **Derek McGowan [Apple]** (term date: 1/29/2021 - 1/29/2023)
 * **Aleksa Sarai [SUSE]** (term date: 1/29/2021 - 1/29/2023)
 
-## Mailing List
+## Contact
+
+### Mailing-list
 
 https://groups.google.com/a/opencontainers.org/forum/#!forum/tob (tob@opencontainers.org)
+
+### Github team
+
+@opencontainers/tob
 
 ## Project Proposals
 
@@ -29,7 +35,6 @@ https://groups.google.com/a/opencontainers.org/forum/#!forum/tob (tob@opencontai
 * [umoci](proposals/umoci.md)
 
 ## Voting
-
 
 In various situations ([2.c, 6.h, 6.j, 6.n](https://github.com/opencontainers/tob/blob/master/CHARTER.md)) the TOB shall hold a vote. These votes can happen on the phone, email, or via a voting service, when appropriate.
 
