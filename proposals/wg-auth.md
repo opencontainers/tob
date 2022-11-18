@@ -37,6 +37,18 @@ This working group will define a standard to be supported by OCI compatible regi
 * Effort should be made to avoid breaking changes to existing registries and clients.
 * Effort should be made to utilize existing IETF standards when appropriate.
 
+## Proposed Owners
+
+The following have agreed to participate in the working group, review progress, report progress back to the OCI community, and present the results to the TOB once the working group has completed its objectives.
+
+* Brandon Mitchell (@sudo-bmitch)
+
+## Stakeholders
+
+OCI Projects, non-OCI projects, or organizations sponsoring the working group and participating in the implementation and use case validation of the work done by the group.
+
+* [regclient][regclient]
+
 ## Related Issues/PRs
 
 * <https://github.com/opencontainers/distribution-spec/issues/240>
@@ -68,3 +80,5 @@ This working group will define a standard to be supported by OCI compatible regi
   * The owners of the WG may from time to time propose to the TOB (1) amendments to this WG Governance Document, and/or (2) changes to the composition of the owners or maintainers of the WG.
   * As set forth in the OCI Charter, the TOB may, in its discretion by a two-thirds vote, approve or reject the requested amendments or changes.
   * As set forth in the OCI Charter, the TOB may also disband the WG by a two-thirds vote.
+
+[regclient]: https://github.com/regclient/regclient
