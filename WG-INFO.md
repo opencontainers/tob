@@ -8,7 +8,9 @@
 
 ## List of disbanded OCI Working Groups
 
-* OCI Working Groups disbanded by the TOB will be listed here.
+* [Reference types](proposals/wg-reference-types.md) delivered the following changes:
+  * [image-spec PR #934](https://github.com/opencontainers/image-spec/pull/934)
+  * [distribution-spec PR #335](https://github.com/opencontainers/distribution-spec/pull/335)
 
 ## Required information for OCI Working Group Proposals
 

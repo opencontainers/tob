@@ -24,6 +24,22 @@ The WG operates as an OCI Working Group under the [Open Container Initiative (OC
 
 * {Describe the intended work product and outputs of the WG, particularly indicating whether they consist of specification(s) and/or other project(s).}
 
+## Proposed Owners
+
+The following have agreed to participate in the working group, review progress, report progress back to the OCI community, and present the results to the TOB once the working group has completed its objectives.
+
+* {List proposed owners.}
+
+## Stakeholders
+
+OCI Projects, non-OCI projects, or organizations sponsoring the working group and participating in the implementation and use case validation of the work done by the group.
+
+* {List proposed stakeholders.}
+
+## Related Issues/PRs
+
+* {List any issues that would be resolved by this working group.}
+
 ## Governance
 
 * **Working Group**:
