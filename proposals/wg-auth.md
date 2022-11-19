@@ -24,12 +24,13 @@ This working group will define a standard to be supported by OCI compatible regi
 * Specify how clients negotiate access to multiple repositories for actions like a cross-repository blob mount.
 * Specify how clients and registries should renegotiate access for a request with expired or insufficient authorization.
 * Specify expected lifetime of registry credentials.
-* Avoid specifications that would prevent added functionality (e.g. fine grain access control).
+* Avoid specifications that would prevent future extensibility (e.g. fine grain access control).
 
 ## Out of Scope
 
 * Registries and clients that do not require authentication and authorization support should be unaffected by these changes.
 * How clients store and access credentials, including credential helpers, will remain undefined.
+* Significant new functionality, not implemented by existing registries and clients, should not be created.
 
 ## Intended work product
 
