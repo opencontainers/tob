@@ -25,6 +25,8 @@ This working group will define a standard to be supported by OCI compatible regi
 * Specify how clients and registries should renegotiate access for a request with expired or insufficient authorization.
 * Specify expected lifetime of registry credentials.
 * Avoid specifications that would prevent future extensibility (e.g. fine grain access control).
+* The authentication methods defined as supported should include OSS solution(s) that avoid picking/choosing a limited set of specific authentication providers as the default / winner.
+* Specify how clients and registries should be extensible/pluggable with respect to supported authentication methods.
 
 ## Out of Scope
 
