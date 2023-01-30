@@ -8,5 +8,6 @@ We would like to acknowledge previous OCI TOB members and their huge contributio
 * Michael Crosby [Apple] (term date: 1/29/2017 - 1/29/2021)
 * Wei Fu [Alibaba] (term date: 1/29/2020 - 1/29/2022)
 * Steve Lasker [Microsoft] (term date: 1/29/2020 - 1/29/2022)
+* Tycho Anderson [Cisco] (term date: 1/29/2021 - 1/29/2023)
 
-We thank these members for their service to the CNCF community.
+We thank these members for their service to the OCI community.
