@@ -45,12 +45,23 @@ This working group will define a standard to be supported by OCI compatible regi
 The following have agreed to participate in the working group, review progress, report progress back to the OCI community, and present the results to the TOB once the working group has completed its objectives.
 
 * Brandon Mitchell (@sudo-bmitch)
+* Jason Hall (@imjasonh)
+* Jeff Carter (@jcarter3)
+* Mike Brown (@mikebrow)
+* Ramkumar Chinchani (@rchincha)
+* Toddy Mladenov (@toddysm)
 
 ## Stakeholders
 
 OCI Projects, non-OCI projects, or organizations sponsoring the working group and participating in the implementation and use case validation of the work done by the group.
 
+* [ACR CLI][acr-cli]
+* [Docker Hub][docker-hub]
+* [notation][notation]
+* [OCI distribution-spec][distribution-spec]
+* [oras][oras]
 * [regclient][regclient]
+* [zot][zot]
 
 ## Related Issues/PRs
 
@@ -84,4 +95,10 @@ OCI Projects, non-OCI projects, or organizations sponsoring the working group an
   * As set forth in the OCI Charter, the TOB may, in its discretion by a two-thirds vote, approve or reject the requested amendments or changes.
   * As set forth in the OCI Charter, the TOB may also disband the WG by a two-thirds vote.
 
+[acr-cli]: https://github.com/Azure/acr-cli
+[distribution-spec]: https://github.com/opencontainers/distribution-spec/
+[docker-hub]: https://hub.docker.com/
+[notation]: https://github.com/notaryproject/notation/
+[oras]: https://github.com/oras-project/oras
 [regclient]: https://github.com/regclient/regclient
+[zot]: https://zotregistry.io/
