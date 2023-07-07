@@ -2,9 +2,7 @@
 
 ## List of current OCI Working Groups
 
-* OCI Working Groups approved by the TOB will be listed here, along with each
-  Working Group's owners and, where applicable following approval of a draft
-  as an OCI Specification, the Working Group's maintainers.
+* [Auth](proposals/wg-auth.md)
 
 ## List of disbanded OCI Working Groups
 
