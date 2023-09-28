@@ -11,7 +11,7 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 * **Jon Johnson [Chainguard]** (term date: 1/29/2022 - 1/29/2024)
 * **Nisha Kumar [Oracle]** (term date: 1/29/2022 - 1/29/2024)
 * **Samuel Karp [Google]** (term date: 1/29/2022 - 1/29/2024) [Chair]
-* **Derek McGowan [Apple]** (term date: 1/29/2023 - 1/29/2025)
+* **Derek McGowan [Docker]** (term date: 1/29/2023 - 1/29/2025)
 * **Aleksa Sarai [SUSE]** (term date: 1/29/2023 - 1/29/2025)
 
 ## Contact
