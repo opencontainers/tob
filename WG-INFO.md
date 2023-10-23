@@ -3,6 +3,7 @@
 ## List of current OCI Working Groups
 
 * [Auth](proposals/wg-auth.md)
+* [Image Compatibility](proposals/wg-image-compatibility.md)
 
 ## List of disbanded OCI Working Groups
 
