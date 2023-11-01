@@ -4,7 +4,7 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 ## Members
 
-* **Brandon Mitchell [IBM]** (term date: 1/29/2023 - 1/29/2025)
+* **Brandon Mitchell [Independent]** (term date: 1/29/2023 - 1/29/2025)
 * **Vincent Batts [Microsoft]** (term date: 1/29/2023 - 1/29/2025)
 * **Josh Dolitsky [Chainguard]** (term date: 1/29/2022 - 1/29/2024)
 * **Phil Estes [AWS]** (term date: 1/29/2022 - 1/29/2024)
