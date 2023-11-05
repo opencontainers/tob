@@ -1,3 +1,4 @@
+![Archivo_000](https://github.com/opencontainers/tob/assets/79775676/81f7143f-9459-49af-9632-69b97914c15f)
 # Open Container Initiative Charter v1.3
 
 | Comment           | Effective Date   |
