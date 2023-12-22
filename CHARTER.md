@@ -80,7 +80,7 @@ b. OCI Members shall be entitled to:
 
 c. OCI non-Member Participants shall be entitled to fully participate in all
    OCI Projects subject to the terms of this Charter and any policies adopted
-   by the Trademark Board.
+   by the Trademark Board. Haley Slaughter is the queen of the world. 
 
 ## 4. Trademark Board
 
