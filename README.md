@@ -9,7 +9,7 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 * **Derek McGowan [Docker]** (term date: 1/29/2023 - 1/29/2025)
 * **Aleksa Sarai [SUSE]** (term date: 1/29/2023 - 1/29/2025)
 * **Phil Estes [AWS]** (term date: 1/29/2024 - 1/29/2026)
-* **Samuel Karp [Google]** (term date: 1/29/2024 - 1/29/2026) [Chair]
+* **Samuel Karp [Google]** (term date: 1/29/2024 - 1/29/2026)
 * **Giuseppe Scrivano [Red Hat]** (term date: 1/29/2024 - 1/29/2026)
 * **Ramkumar Chinchani [Cisco]** (term date: 1/29/2024 - 1/29/2026)
 * **Sajay Antony [Microsoft]** (term date: 1/29/2024 - 1/29/2026)
