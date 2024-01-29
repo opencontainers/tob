@@ -6,11 +6,11 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 * **Brandon Mitchell [Independent]** (term date: 1/29/2023 - 1/29/2025)
 * **Vincent Batts [Microsoft]** (term date: 1/29/2023 - 1/29/2025)
-* **Josh Dolitsky [Chainguard]** (term date: 1/29/2022 - 1/29/2024)
-* **Phil Estes [AWS]** (term date: 1/29/2022 - 1/29/2024)
-* **Jon Johnson [Chainguard]** (term date: 1/29/2022 - 1/29/2024)
-* **Nisha Kumar [Oracle]** (term date: 1/29/2022 - 1/29/2024)
-* **Samuel Karp [Google]** (term date: 1/29/2022 - 1/29/2024) [Chair]
+* **Giuseppe Scrivano [Red Hat]** (term date: 1/29/2022 - 1/29/2026)
+* **Phil Estes [AWS]** (term date: 1/29/2022 - 1/29/2026)
+* **Ramkumar Chinchani [Cisco]** (term date: 1/29/2024 - 1/29/2026)
+* **Sajay Antony [Microsoft]** (term date: 1/29/2024 - 1/29/2026)
+* **Samuel Karp [Google]** (term date: 1/29/2022 - 1/29/2026) [Chair]
 * **Derek McGowan [Docker]** (term date: 1/29/2023 - 1/29/2025)
 * **Aleksa Sarai [SUSE]** (term date: 1/29/2023 - 1/29/2025)
 
