@@ -6,7 +6,7 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 * **Brandon Mitchell [Independent]** (term date: 1/29/2023 - 1/29/2025)
 * **Vincent Batts [Microsoft]** (term date: 1/29/2023 - 1/29/2025)
-* **Giuseppe Scrivano [Red Hat]** (term date: 1/29/2022 - 1/29/2026)
+* **Giuseppe Scrivano [Red Hat]** (term date: 1/29/2024 - 1/29/2026)
 * **Phil Estes [AWS]** (term date: 1/29/2022 - 1/29/2026)
 * **Ramkumar Chinchani [Cisco]** (term date: 1/29/2024 - 1/29/2026)
 * **Sajay Antony [Microsoft]** (term date: 1/29/2024 - 1/29/2026)
