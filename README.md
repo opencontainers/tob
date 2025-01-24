@@ -4,21 +4,21 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 ## Members
 
-* **Brandon Mitchell [Independent]** (term date: 1/29/2023 - 1/29/2025)
-* **Vincent Batts [Microsoft]** (term date: 1/29/2023 - 1/29/2025)
-* **Giuseppe Scrivano [Red Hat]** (term date: 1/29/2024 - 1/29/2026)
-* **Phil Estes [AWS]** (term date: 1/29/2022 - 1/29/2026)
-* **Ramkumar Chinchani [Cisco]** (term date: 1/29/2024 - 1/29/2026)
 * **Sajay Antony [Microsoft]** (term date: 1/29/2024 - 1/29/2026)
+* **Mike Brown [IBM]** (term date: 1/29/2025 - 1/29/2027)
+* **Ramkumar Chinchani [Cisco]** (term date: 1/29/2024 - 1/29/2026)
+* **Phil Estes [AWS]** (term date: 1/29/2022 - 1/29/2026)
+* **Tianon Gravi [Docker]** (term date: 1/29/2025 - 1/29/2027)
 * **Samuel Karp [Google]** (term date: 1/29/2022 - 1/29/2026) [Chair]
-* **Derek McGowan [Docker]** (term date: 1/29/2023 - 1/29/2025)
-* **Aleksa Sarai [SUSE]** (term date: 1/29/2023 - 1/29/2025)
+* **Brandon Mitchell [Independent]** (term date: 1/29/2025 - 1/29/2027)
+* **Aleksa Sarai [SUSE]** (term date: 1/29/2025 - 1/29/2027)
+* **Giuseppe Scrivano [Red Hat]** (term date: 1/29/2024 - 1/29/2026)
 
 ## Contact
 
 ### Mailing-list
 
-https://groups.google.com/a/opencontainers.org/forum/#!forum/tob (tob@opencontainers.org)
+<https://groups.google.com/a/opencontainers.org/forum/#!forum/tob> <tob@opencontainers.org>
 
 ### Github team
 
