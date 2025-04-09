@@ -1,6 +1,6 @@
 # OCI Working Group: Reference Spec
 
-# Reference Spec OCI Working Group - Governance Charter
+## Reference Spec OCI Working Group - Governance Charter
 
 This document describes the basic governance principles for the Reference Spec Working Group (the “WG”).
 
@@ -46,7 +46,11 @@ The following have agreed to participate in the working group, review progress, 
 
 OCI Projects, non-OCI projects, or organizations sponsoring the working group and participating in the implementation and use case validation of the work done by the group.
 
+* buildkit
+* containerd
 * distribution
+* nerdctl
+* moby
 * regclient
 * **additional volunteers needed**
 
