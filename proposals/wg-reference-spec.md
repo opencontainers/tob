@@ -36,13 +36,17 @@ This WG seeks to define the syntax and parsing of a reference as an OCI spec.
 
 The following have agreed to participate in the working group, review progress, report progress back to the OCI community, and present the results to the TOB once the working group has completed its objectives.
 
+* Akihiro Suda
 * Brandon Mitchell
+* James Hewitt
+* Vishal Choudhary
 * **additional volunteers needed**
 
 ## Stakeholders
 
 OCI Projects, non-OCI projects, or organizations sponsoring the working group and participating in the implementation and use case validation of the work done by the group.
 
+* distribution
 * regclient
 * **additional volunteers needed**
 
