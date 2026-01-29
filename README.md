@@ -11,7 +11,7 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 * **Tianon Gravi [Docker]** (term date: 1/29/2025 - 1/29/2027)
 * **Samuel Karp [Google]** (term date: 1/29/2022 - 1/29/2026) [Chair]
 * **Brandon Mitchell [Independent]** (term date: 1/29/2025 - 1/29/2027)
-* **Aleksa Sarai [SUSE]** (term date: 1/29/2025 - 1/29/2027)
+* **Aleksa Sarai [Amutable]** (term date: 1/29/2025 - 1/29/2027)
 * **Giuseppe Scrivano [Red Hat]** (term date: 1/29/2024 - 1/29/2026)
 
 ## Contact
