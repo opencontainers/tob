@@ -4,15 +4,14 @@ The TOB is responsible for managing conflicts, violations of procedures or guide
 
 ## Members
 
-* **Sajay Antony [Microsoft]** (term date: 1/29/2024 - 1/29/2026)
+* **Sajay Antony [Microsoft]** (term date: 1/29/2026 - 1/29/2028)
 * **Mike Brown [IBM]** (term date: 1/29/2025 - 1/29/2027)
-* **Ramkumar Chinchani [Microsoft]** (term date: 1/29/2024 - 1/29/2026)
-* **Phil Estes [AWS]** (term date: 1/29/2022 - 1/29/2026)
+* **Phil Estes [AWS]** (term date: 1/29/2026 - 1/29/2028)
 * **Tianon Gravi [Docker]** (term date: 1/29/2025 - 1/29/2027)
-* **Samuel Karp [Google]** (term date: 1/29/2022 - 1/29/2026) [Chair]
+* **Samuel Karp [Google]** (term date: 1/29/2022 - 1/29/2028)
 * **Brandon Mitchell [Independent]** (term date: 1/29/2025 - 1/29/2027)
 * **Aleksa Sarai [Amutable]** (term date: 1/29/2025 - 1/29/2027)
-* **Giuseppe Scrivano [Red Hat]** (term date: 1/29/2024 - 1/29/2026)
+* **Jeff Carter [Docker]** (term date: 1/29/2026 - 1/29/2028)
 
 ## Contact
 
