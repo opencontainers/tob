@@ -250,6 +250,11 @@ e. The TOB shall be composed of nine (9) individuals elected for their
    entity, or owned by or under common ownership with each other. TOB members
    may not designate alternative representatives.
 
+   In the event of a TOB vacancy, the remaining TOB members may either:
+   - i. Appoint an individual to fill the vacant seat. Appointed individuals serve until the next TOB election, no more than one calendar year from appointment.
+   - ii. Run a new election to fill the vacant seat. Elected individuals serve for the duration of the group term (f), no more than two calendar years from election.
+   - iii. Take no action.
+
 f. TOB members shall be split into two (2) groups, serving for a term of two
    (2) years on a staggered basis, where one group is elected each year. The
    initial TOB will have four (4) TOB members who will only serve for a term of
