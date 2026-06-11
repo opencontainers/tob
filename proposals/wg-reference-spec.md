@@ -10,18 +10,25 @@ The WG operates as an OCI Working Group under the [Open Container Initiative (OC
 
 References are a string that is used by runtimes and other OCI registry clients to retrieve a container image.
 They are currently a convention, used by many clients, adopted from Docker and implemented in distribution/distribution.
-This WG seeks to define the syntax and parsing of a reference as an OCI spec.
+This WG seeks to document the syntax and parsing of a reference within the OCI.
 
 ## Scope
 
 * Document the existing convention used by runtimes and other OCI registry clients.
-* Specify the syntax for references to an [OCI Image Layout](https://github.com/opencontainers/image-spec/blob/7b36cea86235157d78528944cb94c3323ee0905c/image-layout.md) manifest, including support for a tag, digest, or a full registry/repository name.
-* Define how the syntax can be extended to support other use cases, including:
-  * Alternate layer formats
-  * Immutable tags
-  * Selecting an artifact that refers to another manifest (e.g. signature or SBOM)
-  * Querying content from a pull through cache serving multiple registries (see [distribution-spec PR #66](https://github.com/opencontainers/distribution-spec/pull/66))
-* Provide backwards compatibility by using the existing reference convention from [distribution/reference](https://github.com/distribution/reference) when feasible.
+* Specify a standard that attempts to maximize compatibility with existing implementations.
+  * Provide backwards compatibility by using the existing reference convention from [distribution/reference](https://github.com/distribution/reference) when feasible.
+* Leverage existing RFCs for URI syntax where possible (see [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986)) to simplify implementations and integration with registries (a valid reference would be a subset of valid URIs).
+* Reserve specific syntaxes and URI features that may be used in the future versions.
+* Document how projects can safely extend the reference string in a way that will not conflict with future spec versions (e.g. using a project specific reverse DNS notation on key names).
+
+The working group will take into account future requirements of the spec, and minimize the risk of breaking changes from future releases.
+Example future requirements include:
+
+* Leveraging the scheme prefix (`oci://`) to reference content in other locations, such as an [OCI Image Layout](https://github.com/opencontainers/image-spec/blob/7b36cea86235157d78528944cb94c3323ee0905c/image-layout.md).
+* Passing query parameters after a tag/digest that could be sent to the upstream source (`?ttl=1d`).
+* Pushing immutable tags or tags with a limited retention time.
+* Pulling content directly from a pull through cache that serves multiple registries (see [distribution-spec PR #66](https://github.com/opencontainers/distribution-spec/pull/66))
+* Using anchors for client features (`#concurrent_blobs=2`).
 
 ## Out of Scope
 
