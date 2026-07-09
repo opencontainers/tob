@@ -47,6 +47,10 @@ Participation in the OpenContainers community is governed by [OpenContainer's Co
 
 If you find an issue, please follow the [security][security] protocol to report it.
 
+## Guidelines
+
+* [Copyright Notices](./guidelines/copyright.md)
+
 ## Meeting Minutes
 
 * [April 6th, 2020](https://hackmd.io/kKl1ECKnSLWhgk7dZ2WUFQ)
